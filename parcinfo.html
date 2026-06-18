@@ -1,0 +1,266 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8"/>
+    <title>ParcInfo</title>
+    <meta type="description" content="Atelier professionnel InfraSite">
+
+    <link rel="stylesheet" href="./styles/styleAP.css" type="text/css">
+  </head>
+  <body>
+    <button class = "toggle" onclick="toggleMenu()">
+      <span class = "menuIcon">
+        <img src = "./styles/icons/menu.png">
+      </span>
+    </button>
+    <button class = "backUp">
+      <a href = "#sommaire">
+        <img src = "./styles/icons/arrow.png">
+      </a>
+    </button>
+    <div class = "fullScreenMenu">
+      <ul>
+        <li class = "primary"><a href = "./index.html">Accueil</a></li>
+        <li class = "secondary"><a href = "./index.html#experience">Expérience</a></li>
+        <li class = "secondary"><a href = "./index.html#formation">Formations</a></li>
+        <li class = "primary"><a href = "./realisations.html">Réalisations</a></li>
+        <li class = "secondary"><a href = "./infrasite.html">InfraSite</a></li>
+        <li class = "secondary"><a href = "./evolsyswin.html">EvolSysWin</a></li>
+        <li class = "secondary"><a href = "./parcinfo.html">ParcInfo</a></li>
+        <li class = "primary"><a href = "./veille_technologique.html">Veille technologique</a></li>
+        <li class = "primary"><a href = "./contact.html">Contact</a></li>
+        <li class = "secondary"><a href = "./contact.html#telechargements">Téléchargements</a></li>
+        <li class = "secondary"><a href = "./contact.html#contact">Ecrivez-moi</a></li>
+      </ul>
+    </div>
+    <div class = "hero">
+      <div class = "positionTitle title1"><h1>ParcInfo</h1></div>
+    </div>
+    <section>
+      <div class = "title1">Présentation</div>
+      <div class = "presentation">
+        <div class = "textPresentation">
+          L'ETP de Chasseneuil doit pouvoir assurer une gestion de l'inventaire et un suivi des incidents. Il faut proposer une solution à ce besoin, et sécuriser cette solution, notamment en élaborant des plans de sauvegarde et une sécurisation des échanges.
+          <br><br>
+          Afin d'optimiser le travail, il a été jugé préférable de présenter toutes les missions dans un premier temps, puis réorganiser l'ensemble de ces missions afin d'aboutir à un plan d'approche de la solution. En effet, nous avons souhaité partir d'abord des missions de réseau physique, pour ensuite s'occuper des applications.
+        </div>
+        <div class = "downloadPresentation">
+          <div class = "download">
+            <div>
+              <a href =  "./files/ETP-Poitiers.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement du contexte général des ETP" title = "Téléchargez le PDF du contexte général de l'ETP"></a>
+            </div>
+            <div>
+              Contexte général des ETP
+            </div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href =  "./files/ETP-Chasseneuil.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement du contexte spécifique de l'ETP de Chasseneuil" title = "Téléchargez le PDF du contexte de l'ETP de Chasseneuil"></a>
+            </div>  
+            <div>
+              Contexte spécifique de l'ETP de Chasseneuil
+            </div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href =  "./files/ParcInfo-DT.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de l'ensemble de la documentation technique de l'atelier ParcInfo" title = "Téléchargez le PDF du compte-rendu de l'atelier InfraSite"></a>
+            </div>
+            <div>Documentation technique de l'atelier ParcInfo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class = "sectionList">
+    <div class = "title1">Compétences couvertes</div>
+    <ul>
+      <li>Bloc 1 : Support et mise à disposition de services informatiques
+        <ul>
+          <li>Gérer le patrimoine informatique
+            <ul>
+              <li>Réalisation de l'inventaire</li>
+            </ul>
+          </li>
+          <li>Répondre aux incidents et aux demandes d'assistance et d'évolution
+            <ul>
+              <li>Création de profils avec leurs habilitations à gérer et/ou créer des tickets d'incident</li>
+            </ul>
+          </li>
+          <li>
+            Mettre à disposition des utilisateurs un service informatique
+            <ul>
+              <li>Déployer un service : déployement de l'agent GLPI</li>
+              <li>Mise en place du NAT</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bloc 2 : Solutions d'Infrastructures, Réseaux et Systèmes
+        <ul>
+          <li>
+            Concevoir une solution d'infrastructure réseau
+            <ul>
+              <li>Réalisation de la maquette du réseau des serveurs</li>
+              <li>Installation de l'architecture LAMP sur des serveurs Debian Trixie (13.3.0, non graphique)</li>
+            </ul>
+          </li>
+          <li>
+            Exploiter, dépanner et superviser une solution d’infrastructure réseau
+            <ul>
+              <li>
+                Mise en place d'une solution de haute-disponibilité : HaProxy
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bloc 3 : Cybersécurité des services informatiques
+        <ul>
+          <li>
+             Assurer la cybersécurité d'une infrastructure réseau, d'un système, d'un service 
+            <ul>
+              <li>Basculement des communications vesr HTTPS grâce aux certificats SSL/TLS</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <div class = "title1" id = "sommaire">Sommaire</div>
+    <div class = "ensemblePartie">
+      <div class = "partie">
+        <a href="#cdc" class = "titrePartie">Énoncé du cahier des charges</a><br>
+        <ul>
+          <li><a href="#M1" class = "elementPartie">Mission 1</a></li>
+          <li><a href="#M2" class = "elementPartie">Mission 2</a></li>
+          <li><a href="#M3" class = "elementPartie">Mission 3</a></li>
+          <li><a href="#M5" class = "elementPartie">Mission 4</a></li>
+        </ul>
+      </div>
+      <div class = "partie">
+        <a href="#plan" class = "titrePartie">Réorganisation du cahier des charges</a>
+        <ul>
+          <li><a href="#P1" class = "elementPartie">Installation des machines</a></li>
+          <li><a href="#P2" class = "elementPartie">Paramétrage de la base de données GLPI</a></li>
+          <li><a href="#P3" class = "elementPartie">Configuration de HaProxy</a></li>
+          <li><a href="#P4" class = "elementPartie">Installation de SSL</a></li>
+          <li><a href="#P5" class = "elementPartie">Configuration NAT</a></li>
+          <li><a href="#P7" class = "elementPartie">Déploiement de l'agent GLPI</a></li>
+          <li><a href="#P8" class = "elementPartie">Configuration de GLPI</a></li>
+        </li>
+      </div>
+      <div class = "partie">
+        <a href="#deroule" class = "titrePartie">Déroulé du projet</a>
+      </div>
+      <div class = "partie">
+        <a href="#bilan" class = "titrePartie">Résultats & bilan</a><br>
+        <ul>
+          <li><a href="#resultats" class = "elementPartie">Résultats</a></li>
+          <li><a href="#etatdeslieux" class = "elementPartie">État des lieux</a></li>
+          <li><a href="#problemes" class = "elementPartie">Problèmes rencontrés</a></li>
+          <li><a href="#ameliorations" class = "elementPartie">Améliorations</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class = "fullScreenSection"  id = "M0">
+    <div class = "title1">Énoncé du cahier des charges</div>
+    <div class = "title2" id = "M1">Mission 1 : le réseau inventorié</div>
+    <ul>
+      <li>La solution doit être représentative des systèmes présents dans le parc informatique de TiersLieux et AuditME.</li>
+      <li>La solution doit réaliser une remontée la plus complète possible des inventaires sur le serveur (noms des machines, principales caractéristiques matérielles, OS et logiciels installés, adressage Mac et IP, utilisateurs connectés, espace libre sur les disques, etc.).</li>
+      <li>Vous prévoirez dans votre inventaire : un client Windows, un client Linux, un serveur Windows (votre AD) et un serveur Linux (un serveur Web par exemple).</li>
+      <li>Vous produirez un fichier « .csv » contenant ces remontées d’inventaire.</li>
+    </ul>
+    <div class = "title2" id = "M2">Mission 2 : la gestion des incidents</div>
+    <p>
+      GLPI doit être fonctionnel et paramétré afin de permettre son utilisation par différents profils utilisateurs. On souhaite que la définition des utilisateurs dans GLPI soit synchronisée avec la définition de ces utilisateurs dans l’Active Directory du contrôleur de domaine. Toute modification dans Active Directory (création ou suppression d’utilisateur, changement de groupe, etc...) doit être automatiquement répercutée, quand c’est possible, dans GLPI. L’application GLPI est destinée aux employés, afin qu’ils fassent remonter les problèmes rencontrés sur les machines du parc informatique. Vous produirez un mode opératoire expliquant aux employés comment faire remonter un ticket d’incident avec GLPI. Les utilisateurs de l’entreprise TiersLieux, membres du service Réseau & Systèmes (IT), seront les seuls à résoudre les tickets d’incidents, tous les autres utilisateurs (le personnel de Tierslieux86) pourront émettre des demandes de résolution de problèmes.
+      <br><br>
+      TiersLieux accueille souvent des stagiaires en informatique, leur mission est d’aider les membres du service Réseau & Systèmes à gérer les demandes d’incidents. Ils devront s’occuper des demandes de niveau 1 et les employés du service IT les demandes de niveau 2. Il est demandé de mettre en place un mécanisme efficace au niveau du domaine et de GLPI pour répondre aux exigences précédentes dès la venue des stagiaires.
+    </p>
+    <div class = "title2" id = "M3">Mission 3 : déploiement de l'agent GLPI</div>
+    <p>
+      Tous les systèmes présents dans TiersLieux possèdent l’agent GLPI. Pour faciliter la gestion, il est conseillé de le réaliser à l’aide d’une GPO pour les machines Windows.
+    </p>
+    <div class = "title2" id = "M5">Mission 4 : haute-disponibilité</div>
+    <p>
+      Afin d’assurer la continuité de service, vous mettrez en place un second serveur GLPI qui pourra prendre le relais en cas de panne du premier à l’aide de la solution HaProxy vue en B2.2 Séquence 7 – Étude et prototypage de la répartition de charge de serveurs web avec HaProxy. La base de données GLPI sera installée sur un 3e serveur sur lequel les deux serveurs GLPI pointeront et pour lequel on ne s’intéresse pas ici à la réplication de la base données.
+    </p>
+  </section>
+  <section>
+    <div class = "title1" id = "plan">Réorganisation du cahier des charges</div>
+    <p>
+      Si on traduit le cahier des charges, le but est d'installer un logiciel de gestion de parc : on se tourne vers GLPI. Il faut que les serveurs GLPI soient redondants grâce à HaProxy, et que leur base de données soit commune. Cette infrastructure ainsi que ses données doivent être sauvegardées de manière judicieuse. En ce qui concerne GLPI lui-même, nous devons penser à sa structure organisationelle : créer les groupes et les entités de manière appropriée, et lier l'Active Directory à GLPI en prenant en compte le rôle des utilisateurs au sein de l'AD.
+    </p>
+    <div class = "title2" id = "P1">Installation des machines</div>
+    <p>
+      D'abord, on s'occupe de créer les nouvelles machines virtuelles nécessaires. Nous aurons besoin de deux serveurs GLPI, d'une machine pour HaProxy et d'une autre pour la base de données de GLPI. Toutes ces quatre machines seront des Debian Trixie (13.3.0) sans interface graphique. Nous allons aussi devoir simuler l'intégration au domaine d'un poste Linux des bureaux : on prend donc cette fois aussi Debian 13, mais en interface graphique.
+    </p>
+    <div class = "title2" id = "P3">Installation de GLPI</div>
+    <p>
+      Pour l'instant, on ne s'occupe que d'un serveur, SRVHDESK. Le plan d'adressage initial souhaite qu'on lui attribue l'adresse 10.2.0.2, mais comme HaProxy va intervenir et qu'on lui donnera cette adresse pour que les échanges vers les serveurs se fassent avec, nous allons changer.
+      <br><br>
+      On prendra l'adresse 10.2.0.3 pour SRVHDESK. On lui implante une architecture LAMP, avec MariaDB comme gestionnaire de base de données. On installe GLPI. Exportons la base de données GLPI de MariaDB et transférons-la sur SRVBDDGLPI. Le serveur SRVBDDGLPI aura l'adresse 10.2.0.5 (10.2.0.4 sera donné à SRVHDESK2, clone de SRVHDESK). On y installe MariaDB.
+      <br><br>
+      Lorsque tout est téléchargé et installé, on change de mode de réseau et on branche nos serveurs SRVHDESK et SRVBDDGLPI dans le réseau des serveurs. Avant de faire pareil pour SRVHAPROXY, on récupère bien sûr les paquets de HaProxy pour l'installer. Ensuite, on supprime la base de données locale de GLPI sur SRVHDESK, on partage des fichiers de configuration sur le réseau, puis on clone SRVHDESK, ce qui donne SRVHDESK2 et on modifie en conséquence l'adresse IP, les fichiers /etc/hosts et /etc/hostname. D'ailleurs, dans /etc/hosts, on peut renseigner les machines que nous sommes amenées à ping régulièrement.
+      <br><br>
+      On peut passer à la configuration HaProxy, sur le serveur SRVHAPROXY.
+    </p>
+    <div class = "title2" id = "P4">HaProxy et sécurisation des échanges (mission 4)</div>
+    <p>
+       Tout se passe dans le fichier /etc/haproxy/haproxy.cfg, mais avant de faire quoi que ce soit, installons le SSL. Le fait que les échanges soient en SSL ou non influe sur quelques lignes du fichier de configuration. On utilisera un certificat autosigné.
+       <br><br>
+       Plusieurs choix s'offrent à nous pour installer les certificats SSL, et nous nous tournons vers Active Directory Certificates Services. On installe la fonctionnalité, et en parallèle, on crée une demande de certificats sur notre SRVHAPROXY et on crée une clé privée. Le déroulé de l'opération est décrit dans la fiche technique, mais en ce qui concerne l'échange des fichiers entre les machines, en situation réelle, nous aurions pu prendre une clé USB, par exemple. Ici, nous avons utilisé SSH et le service Python qui permet de monter un mini-serveur, le temps du téléchargenement (python3 -m http.server [N° de port]). La configuration de HaProxy a été copiée dans la fiche technique n°2.
+    </p>
+    <div class = "title2" id = "P7">Déploiement de l'agent GLPI (mission 3)</div>
+    <p>
+      Pour déployer l'agent GLPI, nous allons faire comme on nous l'a suggéré, c'est-à-dire à travers une GPO. On utilisera la même méthode qu'Adobe Acrobat, c'est-à-dire qu'on prendra un fichier .msi, qu'on le partagera et qu'on l'installera avec la fonctionnalité "Installation de logiciels".
+    </p>
+    <div class = "title2" id = "P8">Configuration de GLPI (mission 2)</div>
+    <p>
+      On crée les groupes Utilisateur et Support, ainsi que les profils Adhérent, Employé, N1 et N2. La justification et le détail de ces éléments est disponible dans la fiche technique n°2 de cet atelier. On lie l'Active Directory à GLPI, surtout afin d'automatiser l'affectation de groupe et de profil de chaque utilisateur, dépendant de l'appartenance de ce dernier à un groupe global spécifique créé au préalable.
+    </p>
+  </section>
+  <section>
+    <div class = "title1" id = "deroule">Déroulé du projet</div>
+    <div class = "download">
+      <div>
+        <a href =  "./files/ParcInfo-DT.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de l'ensemble de la documentation technique de l'atelier ParcInfo" title = "Téléchargez le PDF du compte-rendu de l'atelier InfraSite"></a>
+      </div>
+      <div>Documentation technique de l'atelier ParcInfo</div>
+    </div>
+    <p>
+      La documentation technique téléchargeable ci-dessus étant relativement courte (par rapport aux autres ateliers professionnels), je vous propose ici de l'utiliser également en temps que compte-rendu. Effectivement, ce PDF présente les éléments de justification ayant mené à tel ou tel choix dans la réalisation de la solution, ainsi que les détails des lignes de commande ou opérations effectuées.
+    </p>
+  </section>
+  <section>
+    <div class = "title1" id = "bilan">Bilan</div>
+    <div class = "title2" id = "etatdeslieux">État des lieux</div>
+    <p>
+      Au niveau de l'architecture, nous avons deux serveurs GLPI en load-balancing grâce à HaProxy. Ces deux serveurs pointent vers un quatrième serveur qui contient la base de données de GLPI. Le serveur Windows nous permet d'accéder à l'interface graphique. Une GPO a été déployée pour que l'agent MSI soit installé sur tous les postes des bureaux.
+    </p>
+    <div class = "title2" id = "problemes">Problèmes rencontrés</div>
+    <p>
+      Les certificats SSL ont posé problème : au départ, on souhaitait utiliser Active Directory Certificates Services, mais des erreurs récurrentes au moment de passer des commandes certutil apparaissaient, évoquant un service et une fonctionnalité absentes. Il a donc fallu se tourner vers des certificats auto-signés.
+    </p>
+    <div class = "title2" id = "ameliorations">Suggestions d'amélioration</div>
+    <p>
+      On est limité par les capacités de l'ordinateur, mais en conditions réelles, on pourrait créer un serveur dédié aux sauvegardes. De plus, même s'il ne s'agit pas de sauvegarde, nous pourrions fragmenter les disques selon un schéma RAID sous Linux pour se parer face à une perte de données.
+    </p>
+  </section>
+  <div class = "afterGlobal"></div>
+</body>
+<script>
+  function toggleMenu(){
+   const menu = document.querySelector(".fullScreenMenu");
+   const btn = document.querySelector(".toggle");
+
+   menu.classList.contains("active") ? menu.classList.remove("active") : menu.classList.add("active");
+ }
+</script>
+
+</html>

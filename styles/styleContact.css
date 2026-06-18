@@ -1,0 +1,260 @@
+/*
+Couleurs :
+Gris 1 : #2E2E2E
+Gris 2 : #4A4A4A
+Jaune : #D9CA3B
+
+
+*/
+
+@font-face{
+  font-family:"InterTTL";
+  src:url("./fonts/Inter_18pt-Bold.ttf");
+  font-weight:normal;
+  font-size:normal;
+}
+
+@font-face{
+  font-family:"InterTXT";
+  src:url("./fonts/Inter-VariableFont_opsz,wght.ttf");
+  font-weight:normal;
+  font-size:normal;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*___________________________________________________________________________ Généralités*/
+body{
+	box-sizing:border-box;
+	font-size:1.2rem;
+	font-weight:350;
+	font-family:"InterTXT";
+	color:black;
+}
+
+button{
+	background-color:transparent;
+	border:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+  display:inline;
+}
+
+section {
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	padding-bottom:20vh;
+}
+
+.title1{
+	position:relative;
+	font-family:"InterTTL";
+	font-size:clamp(5rem,6vw,6.5rem);
+	padding-right:2rem;
+	line-height:130%;
+}
+
+.alignRight{
+	text-align:right;
+}
+
+.title2{
+	position:relative;
+	font-family:"InterTTL";
+	font-size:clamp(2rem,2.5vw,3rem);
+	line-height:130%;
+}
+
+.title3{
+	font-family:"InterTXT";
+	font-size:clamp(2rem,2.5vw,3rem);
+}
+
+.title4{
+	font-family:"InterTXT";
+	font-size:clamp(1.5rem,1.8vw,2.2rem);
+}
+
+/*___________________________________________________________________________ Menu*/
+.fullScreenMenu{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background:rgba(255,255,255,0.5);
+	backdrop-filter:blur(10px);
+	display:none;
+	align-items:center;
+	justify-content:center;
+	font-size:2rem;
+	line-height:150%;
+	z-index:1;
+	font-family:"InterTTL";
+	color:black;
+}
+
+.fullScreenMenu a{
+	color:black;
+}
+
+.fullScreenMenu ul{
+	list-style:none;
+}
+
+.fullScreenMenu ul li a{
+	text-decoration:none;
+}
+
+.fullScreenMenu ul li a:hover{
+	color:#D9CA3B;
+}
+
+.primary{
+	font-size: clamp(1.5rem, 5vw, 3rem);
+	padding-top:1rem;
+}
+
+.secondary{
+	font-size: clamp(1.2rem, 4vw, 2rem);
+	line-height:120%;
+	padding-left:2rem;
+}
+
+.active{
+	display:flex !important;
+}
+
+.toggle{
+	position:fixed; 
+	top:1rem;
+	left:1rem;
+	padding:0.5rem;
+	background:rgba(255,255,255,0.7);
+	border-radius:8px;
+	backdrop-filter:blur(5px);
+	z-index:10;
+}
+
+.backUp a img{
+	position:fixed; 
+	z-index:98;
+	bottom:2rem;
+	right:2vw; 
+}
+
+.menuIcon img {
+  width: clamp(20px, 6vw, 55px);
+  height: auto;
+}
+
+.backUp img {
+  width: clamp(20px, 6vw, 60px);
+  height: auto;
+}
+
+/*___________________________________________________________________________ Hero*/
+.hero{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.positionTitle{
+	width:50%;
+}
+
+/*___________________________________________________________________________ Page*/
+.tab{
+	width:100%;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  padding-bottom:2rem;
+  text-align:right;
+}
+
+.column1 {
+  flex: 1;
+}
+
+.column2 {
+  flex: 2;
+}
+
+.download{
+	display:flex;
+	justify-content:space-between;
+	font-family:"InterTXT";
+	font-size:clamp(1.7rem,1.9vw,2.2rem);	
+	line-height:150%;
+}
+
+/*___________________________________________________________________________ Fin*/
+.afterGlobal{
+	height:20vh;
+}
+
+@media screen and (max-width: 768px){
+
+	.presentation{
+		flex-direction:column;
+	}
+
+	.textPresentation,
+	.downloadPresentation{
+		width:100%;
+		padding-left:0;
+	}
+  .row {
+    flex-direction: column;
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+  }
+
+  .column1 {
+    margin-bottom: 1rem;
+  }
+
+  .download {
+    flex-direction: row;
+    font-size: 1.2rem;
+  }
+
+  .title1 {
+    font-size: clamp(2.5rem, 8vw, 3.5rem);
+  }
+
+  .title2 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .title3 {
+    font-size: clamp(1.3rem, 5vw, 1.8rem);
+  }
+}
+
+@media screen and (min-width: 1024px){
+	section{
+		width:75%;
+	}
+}

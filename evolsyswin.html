@@ -1,0 +1,831 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8"/>
+    <title>EvolSysWin</title>
+    <meta type="description" content="Atelier professionnel EvolSysWin">
+    
+    <link rel="stylesheet" href="./styles/styleAP.css" type="text/css">
+  </head>
+  <body>
+    <button class = "toggle" onclick="toggleMenu()">
+      <span class = "menuIcon">
+        <img src = "./styles/icons/menu.png">
+      </span>
+    </button>
+    <button class = "backUp">
+      <a href = "#sommaire">
+        <img src = "./styles/icons/arrow.png">
+      </a>
+    </button>
+    <div class = "fullScreenMenu">
+      <ul>
+        <li class = "primary"><a href = "./index.html">Accueil</a></li>
+        <li class = "secondary"><a href = "./index.html#experience">Expérience</a></li>
+        <li class = "secondary"><a href = "./index.html#formation">Formations</a></li>
+        <li class = "primary"><a href = "./realisations.html">Réalisations</a></li>
+        <li class = "secondary"><a href = "./infrasite.html">InfraSite</a></li>
+        <li class = "secondary"><a href = "./evolsyswin.html">EvolSysWin</a></li>
+        <li class = "secondary"><a href = "./parcinfo.html">ParcInfo</a></li>
+        <li class = "primary"><a href = "./veille_technologique.html">Veille technologique</a></li>
+        <li class = "primary"><a href = "./contact.html">Contact</a></li>
+        <li class = "secondary"><a href = "./contact.html#telechargements">Téléchargements</a></li>
+        <li class = "secondary"><a href = "./contact.html#contact">Ecrivez-moi</a></li>
+      </ul>
+    </div>
+    <div class = "hero">
+      <div class = "positionTitle title1"><h1>EvolSysWin</h1></div>
+    </div>
+    <section>
+      <div class = "title1">Présentation</div>
+      <div class = "presentation">
+        <div class = "textPresentation">
+          Tierslieux86 est une entreprise qui met à disposition des espaces de travail partagé (ETP) pouvant accueillir des employés d’entreprise. Pour ce faire, elle propose entre autres d’intégrer dans son domaine Active Directory la structure de ses clients, un accès Wi-Fi sécurisé, un service de stockage de fichiers et la création de comptes utilisateurs. Au cours de cet atelier, nous aurons à intégrer l’entreprise cliente ValorElec, en suivant un plan composé de quatre missions. 
+        </div>
+        <div class = "downloadPresentation">
+          <div class = "download">
+            <div>
+              <a href = "./files/ETP-Poitiers.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement du contexte général des ETP" title = "Téléchargez le PDF du contexte général de l'ETP"></a>
+            </div>
+            <div>
+              Contexte général des ETP
+            </div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href = "./files/ETP-Chasseneuil.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement du contexte spécifique de l'ETP de Chasseneuil" title = "Téléchargez le PDF du contexte de l'ETP de Chasseneuil"></a>
+            </div>  
+            <div>
+              Contexte spécifique de l'ETP de Chasseneuil
+            </div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href = "./files/EvolSysWin-CR.pdf" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement du compte-rendu de l'atelier EvolSysWin" title = "Téléchargez le PDF du compte-rendu de l'atelier EvolSysWin"></a>
+            </div>
+            <div>Compte-rendu de l'atelier EvolSysWin</div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href = "./files/EvolSysWin-DT.zip" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de l'ensemble de la documentation technique de l'atelier EvolSysWin" title = "Téléchargez le PDF du compte-rendu de l'atelier EvolSysWin"></a>
+            </div>
+            <div>Documentation technique de l'atelier EvolSysWin</div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href =  "./files/PWSAD.zip" download><img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de l'ensemble des scripts Powershell" title = "Téléchargez l'ensemble des scripts Powershell"></a>
+            </div>  
+            <div>
+              Scripts Powershell
+            </div>
+          </div>
+          <div class = "download">
+            <div>
+              <a href = "https://github.com/brd-cnd/PWSAD" rel="noopener" target="_blank"><img src = "./styles/icons/open.png" alt = "Lien vers le dépôt GitHub des scripts Powershell" title = "Aller vers le dépôt GitHub des scripts Powershell (nouvelle fenêtre)"></a>
+            </div>  
+            <div>
+              Lien vers le dépôt GitHub des scripts Powershell
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class = "sectionList">
+    <div class = "title1">Compétences couvertes</div>
+    <ul>
+      <li>Bloc 1 : Support et mise à disposition de services informatiques
+        <ul>
+          <li>Gérer le patrimoine informatique
+            <ul>
+              <li>Mettre en place les niveaux d’habilitation : partage de ressources réseau</li>
+            </ul>
+          </li>
+          <li>Travailler en mode projet
+            <ul>
+              <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+              <li>Mettre en place un suivi du projet</li>
+            </ul>
+          </li>
+          <li>
+            Mettre à disposition des utilisateurs un service informatique
+            <ul>
+              <li>Déployer un service : Active Directory, serveur de fichier iSCSI</li>
+              <li>Accompagner les utilisateurs : fourniture des données de connexion avec indication de stratégie de mot de passe</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bloc 2 : Solutions d'Infrastructures, Réseaux et Systèmes
+        <ul>
+          <li>
+            Concevoir une solution d'infrastructure réseau
+            <ul>
+              <li>Étude et prototypage de l’infrastructure système Windows Active Directory d’une entreprise cliente : création et organisation des unités d’organisation</li>
+            </ul>
+          </li>
+          <li>
+            Exploiter, dépanner et superviser une solution d'infrastructure réseau
+            <ul>
+              <li>Étude de l’automatisation des tâches d’administration système sous Windows : écriture de scripts PowerShell</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bloc 3 : Cybersécurité des services informatiques
+        <ul>
+          <li>
+            Assurer la cybersécurité d'une infrastructure réseau, d'un système, d'un service
+            <ul>
+              <li>Sécuriser l’infrastructure système pour l’entreprise cliente : mise en place de stratégies de mots de passe via des GPO</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <div class = "title1" id = "sommaire">Sommaire</div>
+    <div class = "ensemblePartie">
+      <div class = "partie">
+        <a href="#organisation" class = "titrePartie">Organisation du projet</a><br>
+        <a href="#rappel" class = "titrePartie">Rappel de l'infrastructure réalisée</a>
+      </div>
+      <div class = "partie">
+        <a href="#M1" class = "titrePartie">Créer la maquette de l'infrastructure système</a><br>
+        <ul>
+          <li><a href="#M1-presentation" class = "elementPartie">Présentation de la mission</a></li>
+          <li><a href="#M1-T1" class = "elementPartie">Plan d'approche de la tâche 1</a></li>
+          <li><a href="#M1-T2" class = "elementPartie">Plan d'approche de la tâche 2</a></li>
+          <li><a href="#M1-resultat" class = "elementPartie">Résultats de la mission</a></li>
+        </ul>
+      </div>
+      <div class = "partie">
+        <a href="#M2" class = "titrePartie">Mettre en place un serveur de fichiers</a>
+        <ul>
+          <li><a href="#M2-presentation" class = "elementPartie">Présentation de la mission</a></li>
+          <li><a href="#M2-T1" class = "elementPartie">Plan d'approche de la tâche 1</a></li>
+          <li><a href="#M2-T2" class = "elementPartie">Plan d'approche de la tâche 2</a></li>
+          <li><a href="#M2-resultat" class = "elementPartie">Résultats de la mission</a></li>
+        </li>
+      </div>
+      <div class = "partie">
+        <a href="#M3" class = "titrePartie">Automatiser la mise en place de la sécurité sur les partages</a>
+        <ul>
+          <li><a href="#M3-presentation" class = "elementPartie">Présentation de la mission</a></li>
+          <li><a href="#M3-T1" class = "elementPartie">Plan d'approche de la tâche 1</a></li>
+          <li><a href="#M3-T2" class = "elementPartie">Plan d'approche de la tâche 2</a></li>
+          <li><a href="#M3-resultat" class = "elementPartie">Résultats de la mission</a></li>
+        </ul>
+      </div>
+      <div class = "partie">
+        <a href="#M4" class = "titrePartie">Mettre en place des stratégies de groupe (GPO)</a>
+        <ul>
+          <li><a href="#M4-presentation" class = "elementPartie">Présentation de la mission</a></li>
+          <li><a href="#M4-T1" class = "elementPartie">Plan d'approche de la tâche 1</a></li>
+          <li><a href="#M4-T2" class = "elementPartie">Plan d'approche de la tâche 2</a></li>
+          <li><a href="#M4-T4" class = "elementPartie">Plan d'approche de la tâche 4</a></li>
+          <li><a href="#M4-resultat" class = "elementPartie">Résultats de la mission</a></li>
+        </ul>
+      </div>
+      <div class = "partie">
+        <a href="#bilan" class = "titrePartie">Bilan</a><br>
+        <ul>
+          <li><a href="#etatdeslieux" class = "elementPartie">État des lieux</a></li>
+          <li><a href="#problemes" class = "elementPartie">Problèmes rencontrés</a></li>
+          <li><a href="#ameliorations" class = "elementPartie">Améliorations</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class = "title1" id = "organisation">Organisation du projet</div>
+    <div>
+      <p>
+        Le maître d'ouvrage, le CNED, a exprimé ses besoins via les contextes des ETP de Poitou et Chasseneuil. Ils sont téléchargeables ci-dessus. En tant qu'unique personne sur le projet, j'ai été maître d'oeuvre et cheffe sur ce projet. Réalisé selon une méthode en cascade, ce dernier a connu un suivi via l'application en ligne Trello.
+      </p>
+      <div class = "picSet">
+        <img src="./styles/pictures/AP2/trello.png" alt="Capture d'écran de l'application en ligne Trello, pour les suivis de projet" width=90%>
+        <p>L'outil Trello, disponible en ligne, demande une création de compte pour les nouveaux utilisateurs</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class = "title1" id = "rappel">Rappel de l'infrastructure</div>
+    <p>
+      Nous nous appuyerons sur l'atelier précédent (InfraSite) pour ce travail. L'infrastructure utilisée a été maquettée avec Packet Tracer. Selon le contexte donné, nous sommes en présence d'un réseau semblable à ceci : 
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/reseauPKT.png" alt="Capture d'écran de la maquette réalisée dans l'atelier InfraSite" width=100%>
+      <p>Une représentation du réseau de l'ETP de Chasseneuil sous Packet Tracer</p>
+    </div>
+    <p>
+      Chaque sous-réseau interne est englobé dans un VLAN, afin de segmenter les communications. Un relais DHCP permet la communication entre la salle serveurs et les bureaux. L'adresse publique du routeur est 10.36.253.20/24. Le Wi-Fi est sécurisé à l'aide d'une clé WPA2-PSK. Voici le plan d'adressage de l'ETP de Chasseneuil : 
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Nom du réseau</th>
+          <th>Plage d'adresses</th>
+          <th>Passerelle par défaut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DMZ</td>
+          <td>172.16.2.0/24</td>
+          <td>172.16.2.254</td>
+        </tr>
+        <tr>
+          <td>Serveurs</td>
+          <td>10.2.0.0/24</td>
+          <td>10.2.0.254</td>
+        </tr>
+        <tr>
+          <td>Bureaux</td>
+          <td>192.168.2.0/24</td>
+          <td>192.168.2.254</td>
+        </tr>
+        <tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Réseau</th>
+              <th>Adresse réseau</th>
+              <th>Passerelle</th>
+              <th>Terminal</th>
+              <th>Adresse du terminal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">DMZ</td>
+              <td rowspan="2">172.16.2.0/24</td>
+              <td rowspan="2">172.16.2.254</td>
+              <td>Serveur Web</td>
+              <td>172.16.2.10</td>
+            </tr>
+            <tr>
+              <td>Serveur DNS</td>
+              <td>172.16.2.11</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Salle serveurs</td>
+              <td rowspan="2">10.2.0.0/24</td>
+              <td rowspan="2">10.2.0.254</td>
+              <td>Serveur HelpDesk</td>
+              <td>10.2.0.1</td>
+            </tr>
+            <tr>
+              <td>Serveur DNS</td>
+              <td>10.2.0.2</td>
+            </tr>
+          </tbody>
+        </table>
+      </tbody>
+    </table>
+    <p>
+      Pour simuler ce réseau de manière physique, nous nous sommes appuyés sur un prototype virtuel basé sur VirtualBox, et composé d'un routeur VyOS, d'un serveur Windows 2022 implanté dans le réseau des serveurs, et d'un poste Windows 11 Éducation qui sera dans le réseau des bureaux. On pense donc à bien connecter les interfaces réseaux de chacune de ces machines dans le bon réseau interne. Ci-dessous, nous avons la configuration des quatre interfaces du routeur VyOS : chacune est dans un réseau interne de l'entreprise. La DMZ ne sera pas utilisée : elle a été activée uniquement afin de correspondre au mieux à la situation décrite par le contexte.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/configReseauVBOX.jpg" alt="Capture d'écran de la configuration réseau des machines sous VirtualBox" width=75%>
+      <p>Configuration réseau des machines sous VirtualBox</p>
+    </div>
+  </section>
+  <section class = "fullScreenSection"  id = "M1">
+    <div class = "title1">Créer la maquette de l'infrastructure système</div>
+    <div class = "title2" id = "M1-presentation">Présentation de la mission</div>
+    <div class = "download">
+      <div>
+        <a href = "./files/EvolSysWin-M1.pdf" download>
+          <img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de la documentation technique de la mission 1" title = "Téléchargez la documentation technique de la mission 1">
+        </a>
+      </div>
+      <div class = "title4">
+        Documentation technique de la mission 1
+      </div>
+    </div>
+    <div class = "title3">Tâche 1</div>
+    <div>
+      <p>
+        Proposer une organisation en OU, utilisateurs et groupes pour le client ValorElec intégrée à Tierslieux86. Une vingtaine de collaborateurs vont arriver, ils sont répartis de la manière suivante :
+      </p>
+      <ul>
+        <li>10 personnes pour le service recherche et développement</li>
+        <li>1 commercial</li>
+        <li>8 personnes pour le service de direction (dont le directeur commercial)</li>
+      </ul>        
+    </div>
+    <div class = "title3">Tâche 2</div>
+    <div>
+      <p>
+        Automatiser les tâches d'administration (créations des OUs, utilisateurs et groupes, peuplement des groupes et création d'un document Word avec leurs informations personnelles, login du mot de passe,...) par l'écriture de scripts.
+      </p>
+    </div>
+
+    <div class = "title2" id = "M1-T1">Plan d'approche de la tâche 1</div>
+    <div class = "title3">Architecture Active Directory</div>
+    <p>
+      Nous avons déjà à notre disposition une architecture système donnée dans l'atelier InfraSite. Nous pourrions toutefois rajouter, pas seulement pour ValorElec mais pour toutes les autres entreprises, une unité d'organisation qui concentre tous les groupes d'étendue domaine local de l'entreprise. Cette nouvelle unité serait au même niveau que celle des groupes globaux, des utilisateurs et des ordinateurs.
+      <br><br>
+      Comme nous sommes partis pour affecter ce changement à toutes les entreprises clientes de l'ETP, nous allons modifier le script chargé de créer les sous-unités d'organisation d'une entreprise.
+    </p>
+    <div class = "title3">Organisation en groupes</div>
+    <p>
+      À chaque service (direction, commerce, recherche et développement) ou statut (employé ou responsable) son groupe global. De surcroît, à chaque groupe global, son groupe domaine local. Nous le verrons plus tard dans la mission 3, mais prendre en compte les statuts hiérarchiques permet d'octroyer des droits sur les dossiers et fichiers d'un service pour lesquels une personne externe à ce service n'aurait normalement pas accès. Au final :
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Service/statut représenté</th>
+          <th>Groupe global</th>
+          <th>Groupe domaine local</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Direction</td>
+          <td>GG-VALORELEC-Direction</td>
+          <td>DL-VALORELEC-Direction</td>
+        </tr>
+        <tr>
+          <td>Commerce</td>
+          <td>GG-VALORELEC-Commerce</td>
+          <td>DL-VALORELEC-Commerce</td>
+        </tr>
+        <tr>
+          <td>Recherche et développement</td>
+          <td>GG-VALORELEC-RD</td>
+          <td>DL-VALORELEC-RD</td>
+        </tr>
+        <tr>
+          <td>Responsables</td>
+          <td>GG-VALORELEC-Responsables</td>
+          <td>DL-VALORELEC-Responsables</td>
+        </tr>
+        <tr>
+          <td>Employés</td>
+          <td>GG-VALORELEC-Employés</td>
+          <td>DL-VALORELEC-Employés</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class = "title2" id = "M1-T2">Plan d'approche de la tâche 2</div>
+    <div class = "title3">Script PowerShell</div>
+    <p>
+      Le script Powershell a été conçu afin d’intégrer n’importe quelle entreprise, du moment que cette dernière a son arborescence présente au sein de l’Active Directory. À l’exécution du script, on demandera à l’utilisateur si l’infrastructure à laquelle appartiennent les utilisateurs est une entreprise cliente ou bien l’ETP. C’est une étape décisive qui permet de fixer les chemins des OU et les noms des fichiers utilisateurs sur lesquels on se basera afin de chercher et créer les objets au bon endroit.
+      <br><br>
+      D’abord, on s’occupe de la création d’où et de groupes. Pour ce qui est de la modification de l’architecture système, une vérification de l’existence des OU et des groupes est faite avant la création d’un objet. Pour les groupes globaux recensés dans le tableau, on vérifie s’il n’existe pas son jumeau d’étendue domaine local, et si oui, on demande à l’utilisateur si on souhaite ajouter le groupe global comme membre de ce groupe domaine local.
+      <br><br>
+      Ensuite, on intègre les utilisateurs. La création des comptes utilisateurs extrait le nom et le prénom de chaque salarié de l’entreprise, ainsi que du service et du statut auquel il appartient. Le login est créé à partir du nom et du prénom. Une fonction est dédiée à la création du mot de passe : ce dernier contient douze caractères, alternant chiffres, majuscules, minuscules et caractères spéciaux. Après sa création de compte, l’utilisateur est affecté ensuite au groupe global du service et du statut auquel il appartient.
+    </p>
+
+    <div class = "title2" id = "M1-resultat">Résultats de la mission</div>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/OUdomaineLocal.png" alt="Capture d'écran de l'arborescence du domaine de Tierslieux86 après exécution du script modifié" width=30%>
+      <p>Nouvelle organisation basique d'une entreprise représentée dans l'arborescence du domaine Tierslieux86</p>
+    </div>
+    <p>
+      Pour ce qui est de la modification du script, il a suffit de rajouter une chaîne de caractères, "Groupes domaine local", dans le tableau qui recense les unités d'organisation à créer pour intégrer une entreprise. Voici un aperçu du déroulé de l'exécution du script. Les captures d'écran montrent l'intégration de l'entreprise Esporting, mais cela est tout aussi valable pour ValorElec.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/derouleScript1.png" alt="Capture d'écran de l'exécution du script : création des unités d'organisation de l'entreprise" width=65%>
+      <p>Les unités d'organisation sont créés successivement, en informant de la réussite ou de l'échec de la création</p>
+    </div>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/derouleScript2.png" alt="Capture d'écran de l'exécution du script : intégration des utilisateurs" width=55%>
+      <p>Intégration des utilisateurs grâce aux informations d'un fichier CSV</p>
+    </div>
+    <p>
+      Dans un cas réel, le fichier CSV peut être issu d'un fichier Excel, que l'ETP exige de la part de l'entreprise. Les logins sont par la suite stockés dans un dossier propre à l'entreprise sur le répertoire de l'administrateur : il faudra que ce dernier les communique aux utilisateurs. Voici une preuve que les fichiers Word ont été édités :
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/fichiersWord.png" alt="Capture d'écran des fichiers Word édités à l'aide du script Powershell" width=65%>
+      <p>Ensemble des fichiers Word édités à l'issue de l'exécution du script</p>
+    </div>
+    <p>
+      Et voici ce à quoi l'un d'entre eux ressemble :
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/fichierWord.png" alt="Capture d'écran d'un fichier Word contenant les informations de connexion de l'utilisateur" width=60%>
+      <p>Un fichier Word contenant les informations de connexion de l'utilisateur</p>
+    </div>
+  </section>
+
+  <section class = "fullScreenSection" id = "M2">
+    <div class = "title1">Mettre en place un serveur de fichiers</div>
+    <div class = "title2" id = "M2-presentation">Présentation de la mission</div>
+    <div class = "download">
+      <div>
+        <a href = "./files/EvolSysWin-M2.pdf" download>
+          <img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de la documentation technique de la mission 2" title = "Téléchargez la documentation technique de la mission 2">
+        </a>
+      </div>
+      <div class = "title4">
+        Documentation technique de la mission 2
+      </div>
+    </div>
+    <div class = "title3">Tâche 1</div>
+    <p>
+      Mettre en place un serveur de fichiers basé sur du stockage iSCSI (TrueNas par exemple).
+    </p>
+    <div class = "title3">Tâche 2</div>
+    <p>
+      Réaliser une étude sur l'implémentation d'une racine dédiéeDFS (avantages et inconvénients pour le client ValorElec).
+    </p>
+
+    <div class = "title2" id = "M2-T1">Plan d'approche de la tâche 1</div>
+    <div class = "title3">Serveur de stockage iSCSI</div>
+    <p>
+      L'idée retenue est d'ajouter la fonctionnalité "Cible iSCSI" au serveur contrôleur de domaine. Puis, il faudra configurer le serveur et créer un dossier qui servira de disque virtuel à être exposé. En ce qui concerne la configuration iSCSI, nous activons CHAP. Le processus de cette installation, notamment les choix à faire, sont détaillés dans la documentation technique de cette mission, téléchargeable ci-dessus.
+    </p>
+    <div class = "title2" id = "M2-T2">Plan d'approche de la tâche 2</div>
+    <div class = "title3">Étude d'une racine DFS</div>
+    <p>
+      Comme explicité dans la documentation technique :
+      <br><br>
+      &laquo;Une racine DFS définit le chemin qu'un utilisateur tape pour accéder à un dossier. Cela permet de fixer un nom qui peut être totalement différent du chemin où il se trouve réellement sur le serveur. On note deux types de racines DFS : les racines autonomes ou les racines de nom de domaine. Une racine autonome fait directement dépendre le chemin du serveur de fichiers. Si ce dernier est sujet à un incident, il se pourrait bien que les fichiers deviennent indisponibles.
+      <br><br>
+      Une racine de nom de domaine utilise le DNS d'Active Directory pour faire la correspondance entre le chemin de la ressource et la ressource elle-même, ce qui signifie qu'on peut mettre implémenter cette racine sur plusieurs serveurs, et éviter que la ressource devienne injoignable si un serveur tombe en panne.
+      <br><br>
+      Dans le cas de ValorElec, il serait préférable de prendre une racine DFS de nom de domaine. L'entreprise a déjà fait les frais d'un incendie qui, heureusement, n'a pas causé de pertes de données : autant faire le choix de la sécurité en prenant un système redondant. L'inconvénient est que ce système dépend d'Active Directory, alors qu'une racine autonome, non. Toutefois, ce défaut reste mineur car l'entreprise possède de toute manière des OU et des objets Active Directory qui la représentent, et qui lui permettent d'ailleurs d'avoir des droits modulaires sur les ressources partagées via le serveur de fichiers. Qui plus est, la racine DFS basée sur le nom de domaine cache le nom du serveur.&raquo;
+    </p>
+    <div class = "title2" id = "M2-resultat">Résultats de la mission</div>
+    <p>
+      La configuration du nouveau disque iSCSI est récapitulée ici :
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/recapDisqueVirtuel.png" alt="Capture d'écran du récaptulatif de la création du disque virtuel" width=60%>
+      <p>Disque virtuel amené à être exposé pour ValorElec</p>
+    </div>
+    <p>
+      On a un disque virtuel qui apparaît dans le gestionnaire des disques. Il suffit de les formater et de les mettre en ligne.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/disqueVirtuel.png" alt="Capture d'écran du récaptulatif de la présence du disque virtuel dans le gestionnaire de disque" width=55%>
+      <p>Le disque virtuel est bien créé</p>
+    </div>
+    <p>
+      Depuis une session utilisateur, on peut vérifier que les dossiers créés et partagés sur ce disque apparaissent bien.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/partageDisqueVHDX.png" alt="Capture d'écran de l'apparition des partages depuis un poste des bureaux" width=60%>
+      <p>La découverte réseau détecte les fichiers qui sont exposés sur le disque virtuel</p>
+    </div>
+  </section>
+
+  <section class = "fullScreenSection"  id = "M3">
+    <div class = "title1">Automatiser la mise en place de la sécurité sur les partages</div>
+    <div class = "title2" id = "M3-presentation">Présentation de la mission</div>
+    <div class = "download">
+      <div>
+        <a href = "./files/EvolSysWin-M3.pdf" download>
+          <img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de la documentation technique de la mission 1" title = "Téléchargez la documentation technique de la mission 1">
+        </a>
+      </div>
+      <div class = "title4">
+        Documentation technique de la mission 3
+      </div>
+    </div>
+    <div class = "title3">Tâche 1</div>
+    <p>
+      Proposer sous forme de tableau les utilisateurs, groupes et droits associés sur les partages.
+    </p>
+    <div class = "title3">Tâche 2</div>
+    <p>
+      Écrire un script Powershell qui vous permettra d'automatiser l'ensemble des tâches pour mettre en place la sécurité sur les partages.
+    </p>
+    <div class = "title2" id = "M3-T1">Plan d'approche de la tâche 1</div>
+    <div class = "title3">Tableau des partages</div>
+    <p>
+      Il est clair qu'un commercial ne devrait pas pouvoir lire les fichiers de la direction, par exemple. Par contre, un commercial peut lire et modifier les fichiers de son service. Il en va de même pour la recherche : les chercheurs peuvent agir sur leurs propres fichiers, mais il n'y a pas de raison à ce qu'ils puissent voir ceux du commercial ou des directeurs. Donc, chaque service doit pouvoir lire et modifier les éléments qui lui appartiennent, et cela s'arrête ici. Néanmoins, il se peut que les chefs de projets, les responsables, aient besoin de consulter des fichiers de différents services pour se concerter ou prendre des décisions. Donc, il serait bon qu'ils aient un droit de lecture sur les fichiers des différents services. Ainsi :
+    </p>
+    <ul>
+      <li>Toute personne appartenant à un service a un droit de lecture et de modification sur les fichiers appartenant à ce service</li>
+      <li>Tout responsable a le droit de lecture sur les fichiers des autres services</li>
+      <li>Les employés non affectés à un service n'ont aucune autorisation, quel que soit le fichier et son propriétaire</li>
+    </ul>
+    <p>
+      Ci-dessous, le tableau présentant l'appartenance des salariés de ValorElec à un service et à un statut de l'entreprise.
+    </p>
+    <table class = "M3T1">
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="3">Groupes globaux des services</th>
+          <th colspan="2">Groupes globaux des statuts</th>
+        </tr>
+        <tr>
+          <th>GG-VALORELEC-Direction</th>
+          <th>GG-VALORELEC-Commerce</th>
+          <th>GG-VALORELEC-RD</th>
+          <th>GG-VALORELEC-Employés</th>
+          <th>GG-VALORELEC-Responsables</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Vincent Monnet</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Louise Brönt</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Éric Faure</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Georgia Gabriel</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Juliette Ugo</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Simone Crayencour</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Auguste César</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
+        <tr><td>Emily Renal</td><td></td><td>X</td><td></td><td></td><td>X</td></tr>
+        <tr><td>Paul Lenoir</td><td></td><td>X</td><td></td><td></td><td></td></tr>
+        <tr><td>Georges Gugeain</td><td></td><td>X</td><td></td><td>X</td><td></td></tr>
+        <tr><td>Paul Serrat</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Claude Ravel</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Maurice Deussy</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Gabriel Satie</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Adèle Druet</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Colette Sandt</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Marguerite Bellevue</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Catherine Labbé</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+        <tr><td>Louisa Baker</td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+      </tbody>
+    </table>
+    <p>
+      Le tableau suivant présente l'imbrication des groupes globaux dans les groupes domaine local. "Y" (yes) marque l'appartenance, tandis que "N" désigne la non-appartenance.
+    </p>
+    <table class = "M3T1">
+      <thead>
+        <tr>
+          <th rowspan="3">Groupes globaux</th>
+          <th colspan="3" class="group-header">Direction</th>
+          <th colspan="3" class="group-header">Commerce</th>
+          <th colspan="3" class="group-header">Recherche et développement</th>
+        </tr>
+        <tr>
+          <th>DL-VALORELEC-Direction-L</th>
+          <th>DL-VALORELEC-Direction-LM</th>
+          <th>DL-VALORELEC-Direction-CT</th>
+          <th>DL-VALORELEC-Commerce-L</th>
+          <th>DL-VALORELEC-Commerce-LM</th>
+          <th>DL-VALORELEC-Commerce-CT</th>
+          <th>DL-VALORELEC-RD-L</th>
+          <th>DL-VALORELEC-RD-LM</th>
+          <th>DL-VALORELEC-RD-CT</th>
+        </tr>
+        <tr>
+          <th>Lecture</th>
+          <th>Lecture et modification</th>
+          <th>Contrôle total</th>
+          <th>Lecture</th>
+          <th>Lecture et modification</th>
+          <th>Contrôle total</th>
+          <th>Lecture</th>
+          <th>Lecture et modification</th>
+          <th>Contrôle total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GG-VALORELEC-Direction</td>
+          <td>N</td><td>Y</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+        </tr>
+        <tr>
+          <td>GG-VALORELEC-Commerce</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>Y</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+        </tr>
+        <tr>
+          <td>GG-VALORELEC-RD</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>Y</td><td>N</td>
+        </tr>
+        <tr>
+          <td>GG-VALORELEC-Responsables</td>
+          <td>Y</td><td>N</td><td>N</td>
+          <td>Y</td><td>N</td><td>N</td>
+          <td>Y</td><td>N</td><td>N</td>
+        </tr>
+        <tr>
+          <td>GG-VALORELEC-Employés</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+          <td>N</td><td>N</td><td>N</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class = "title2" id = "M3-T2">Plan d'approche de la tâche 2</div>
+    <div class = "title3">Script PowerShell</div>
+    <p>
+      Au début, l'idée était de suivre le tableau ci-dessus. Soit SERVICE le nom d'un service. On crée trois groupes domaine local : DL-VALORELEC-SERVICE-L, DL-VALORELEC-SERVICE-LM et DL-VALORELEC-SERVICE-CT. Les suffixes sont explicites : sur un dossier à partager, on attribue un droit de lecture au groupe finissant par L, de lecture et modification pour le groupe finissant par LM, et un contrôle total pour celui qui finit par CT. On faisait la même chose pour les statuts. Le rôle des statuts est d'accorder à une personne externe à un service certains droits sur un fichier. En vérité, cela permet surtout d'attribuer des droits de lecture aux responsables, le groupe des employés étant plutôt là par défaut.
+      <br><br>
+      Dans les faits, rien ne s'est passé comme prévu (voir &laquo; Problèmes rencontrés &raquo; en bas de page), même en autorisant les droits manuellement. Le temps passant en cette fin de mois de mars, on s'est alors proposé de changer de tactique : on crée des groupes domaine local selon le nom de la ressource. Dans ce scénario, on cible ou crée un fichier, et on lui confectionne trois groupes domaine local DL-VALORELEC-nomDuFichier-L, DL-VALORELEC-nomDuFichier-LM et DL-VALORELEC-nomDuFichier-CT. Le principe est à peu près le même : on attribue à DL-VALORELEC-nomDuFichier-L le droit de lecture, à DL-VALORELEC-nomDuFichier-LM le droit de lecture et de modification, et à DL-VALORELEC-nomDuFichier-CT celui de contrôle total. On ajoute comme membre de ces groupes les groupes globaux voulus de l'entreprise.
+    </p>
+
+    <div class = "title2" id = "M3-resultat">Résultats de la mission</div>
+    <p>À l'exécution du script, on demande le chemin du fichier à partager. S'il n'existe pas, on peut choisir de le créer.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/PWSpartage1.png" alt="Capture d'écran de l'exécution du script Powershell IntegrationAGDLP2.ps1" width=60%>
+      <p>Exécution du script Powershell IntegrationAGDLP2.ps1</p>
+    </div>
+    <p>Le script va créer des groupes domaine local en fonction du nom de la ressource à partager.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/PWSpartage2.png" alt="Capture d'écran de la création des groupes domaine local" width=40%>
+      <p>Création des groupes domaine local avec le droit en question en suffixe</p>
+    </div>
+    <p>
+      Les groupes globaux sont récupérés via une liste et il suffit d'indiquer par leur numéro lequel intégrer dans le groupe domaine local spécifier en bleu. Pour arrêter l'ajout concernant le groupe domaine local courant, on entre le chiffre zéro.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/PWSpartage3.png" alt="Capture d'écran de l'ajout des groupes globaux aux groupes domaine local" width=40%>
+      <p>Ajout des groupes globaux aux groupes domaine local</p>
+    </div>
+    <p>Vérifions les accès. Par exemple, monsieur Lenoir est un commercial de ValorElec : il a droit de modification sur les fichiers qui appartiennent à son service. Le test est concluant</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/lenoirLM.png" alt="Capture d'écran de la création de fichier dans un dossier des commerciaux par un employé du service" width=60%>
+      <p>Création de fichiers dans un dossier des commerciaux par un employé du service</p>
+    </div>
+    <p>Par contre, monsieur Lenoir n'a pas accès aux dossiers qui concernent le département de recherche et développement.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/lenoirDissolvant.png" alt="Capture d'écran du refus d'accès au dossier des chercheurs pour un employé commercial" width=60%>
+      <p>Accès refusé au dossier destiné aux chercheurs</p>
+    </div>
+    <p>
+      Ce n'est pas le cas de madame Renal, qui, en tant que responsable, a bien un accès en lecture à Test_dissolvant, bien qu'elle soit elle-aussi du service commercial. Elle ne peut toutefois pas écrire, comme cela a été montré en vidéo.
+    </p>
+  </section>
+
+  <section class = "fullScreenSection"  id = "M4">
+    <div class = "title1">Mettre en place les stratégies de groupe</div>
+    <div class = "title2" id = "M4-presentation">Présentation de la mission</div>
+    <div class = "download">
+      <div>
+        <a href = "./files/EvolSysWin-M4.pdf"download>
+          <img src = "./styles/icons/download.png" alt = "Bouton de téléchargement de la documentation technique de la mission 4" title = "Téléchargez la documentation technique de la mission 4">
+        </a>
+      </div>
+      <div class = "title4">
+        Documentation technique de la mission 4
+      </div>
+    </div>
+    <div class = "title3">Tâche 1</div>
+    <p>
+      Installer via une GPO le logiciel AcrobatReader.msi pour le client ValorElec.
+    </p>
+    <div class = "title3">Tâche 2</div>
+    <p>
+      Mettre en place un ensemble de restrictions par stratégies de groupe, comme décrites ci-après.
+    </p>
+    <ul>
+      <li>Les utilisateurs ne doivent pas avoir accès au panneau de configuration ;</li>
+      <li>Le mot de passe des utilisateurs doit avoir 8 caractères minimum, changer tous les mois avec un historique de 12 mots de passe qui ne peuvent pas être réutilisés et enfin, le compte doit être bloqué à deux tentatives infructueuses d'identification pendant une durée de 10 minutes ;</li>
+      <li>Pour le service de direction, le mot de passe des utilisateurs doit avoir des caractéristiques plus contraignantes : doit avoir 12 caractères minimum, changer de mot de passe tous les deux mois avec un historique de 24 mots de passe qui ne peuvent pas être réutilisés et enfin le compte doit être bloqué à chaque tentative infrustructueuse d'identification pendant une durée de 5 minutes.</li>
+    </ul>
+    <div class = "title3">Tâche 3 (bonus)</div>
+    <p>
+      Mettre en place une stratégie d'audit afin d'être informé sur les ouvertures de compte infructueuses, sur les modifications, sur les objets Active Directory, sur le dossier de partage qui contient Acrobat... afin, en cas d'échec, de pouvoir résoudre le problème.
+    </p>
+    <div class = "title3">Tâche 4</div>
+    <p>
+      Tester l'application des stratégies de groupe sur une machine virtuelle cliente.
+    </p>
+    <div class = "title2" id = "M4-T1">Plan d'approche de la tâche 1</div>
+    <div class = "title3">Préparation du logiciel AdobeAcrobat.msi</div>
+    <p>
+      Pour respecter la contrainte du format de fichier (.msi), il faut au préalable effectuer quelques manipulations sur Adobe Acrobat tel qu’installé en tant que fichier exécutable. Il faut extraire les fichiers de l’archive .exe grâce à 7-zip, lancer une installation personnalisée via Powershell (msiexec /a), puis patcher le fichier AdobeRead.msi avec un fichier .msp. Cela permet d’apporter au logiciel les nouvelles mises à jour.
+    </p>
+    <div class = "title3">Dossier partage sur le serveur</div>
+    <p>
+      Comme le fichier .msi est destiné à être récupéré par de nombreux postes pour être installé, il faut le mettre à disposition des utilisateurs : on doit le mettre sur un partage réseau. Créons d’abord un dossier qui ne sera pas partagé, mais permettra de contenir le sous-dossier de l’installateur Adobe Acrobat, et éventuellement, tous les autres installateurs de futures applications. On le nomme donc « Applications », et c’est le sous-dossier d’Adobe Acrobat qu’on partagera. On mettra un dollar à la fin du nom du partage, ce qui permet de ne pas afficher le dossier lorsqu’un ordinateur effectue une recherche sur le réseau.
+    </p>
+    <div class = "title3">Création de la GPO</div>
+    <p>
+      Cette GPO s’appliquera à tous les utilisateurs de ValorElec : on prendra soin de la lier sur l’unité d’organisation « Utilisateurs ». Les groupes concernés par cette GPO seront les groupes globaux des employés et responsables de ValorElec, et on pensera à paramétrer les droits pour qu’ils puissent appliquer cette GPO.
+    </p>
+    <div class = "title2" id = "M4-T2">Plan d'approche de la tâche 2</div>
+    <div class = "title3">Blocage du panneau de configuration & stratégies de mot de passe et de verrouillage de compte</div>
+    <p>
+      Pour les stratégies de mot de passe, nous allons configurer pour les utilisateurs la GPO « Default Domain Policy », tandis que pour le service de la direction, où cette stratégie est plus contraignante, nous allons devoir faire une PSO. Pour le panneau de configuration, on créera un GPO à lier à l’unité d’organisation des utilisateurs de ValorElec.
+    </p>
+    <div class = "title3"></div>
+    <div class = "title2" id = "M4-T4">Plan d'approche de la tâche 4</div>
+    <div class = "title3">Scénario de test des GPO</div>
+    <p>
+      Pour tester ce que nous avons fait en intégrité, il faut recenser les scénarios. Notons que pour l’accès au panneau de configuration, nous sommes partis du principe que cela ne concernait que les utilisateurs de ValorElec, et non l’ensemble des utilisateurs des clients de l’entreprise, auquel cas nous aurions dû lier la GPO à une unité d’organisation plus haute. Voici un tableau recensant les situations à tester.
+    </p>
+    <table>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2" class="section-header">ACCÈS AU PANNEAU DE CONFIGURATION</th>
+        <th colspan="2" class="section-header">STRATÉGIE DE MOT DE PASSE</th>
+        <th colspan="2" class="section-header">STRATÉGIE DE VERROUILLAGE DE COMPTE</th>
+      </tr>
+      <tr>
+        <th>Autorisé</th>
+        <th>Interdit</th>
+        <th>Valide</th>
+        <th>Invalide</th>
+        <th>Seuil de connexions avant déclenchement</th>
+        <th>Durée du verrouillage</th>
+      </tr>
+      <tr>
+        <td class="row-header">EMPLOYÉ DE VALORELEC</td>
+        <td class="center"></td>
+        <td class="center x">X</td>
+        <td>Longueur ≥ 8, critères de complexité, historique des 12 derniers mots de passe, changement obligatoire au bout de 30 jours</td>
+        <td>Dès qu’un critère de validité n’est pas respecté</td>
+        <td class="center">2</td>
+        <td class="center">10 minutes</td>
+      </tr>
+      <tr>
+        <td class="row-header">RESPONSABLE DE VALORELEC</td>
+        <td class="center"></td>
+        <td class="center x">X</td>
+        <td>Longueur ≥ 12, critères de complexité, historique des 24 derniers mots de passe, changement obligatoire au bout de 60 jours</td>
+        <td>Dès qu’un critère de validité n’est pas respecté</td>
+        <td class="center">1</td>
+        <td class="center">5 minutes</td>
+      </tr>
+      <tr>
+        <td class="row-header">PERSONNE NE FAISANT PAS PARTIE DE VALORELEC</td>
+        <td class="center x">X</td>
+        <td class="center"></td>
+        <td>Longueur ≥ 8, critères de complexité, historique des 12  derniers mots de passe, changement obligatoire au bout de 30 jours</td>
+        <td>Dès qu’un critère de validité n’est pas respecté</td>
+        <td class="center">2</td>
+        <td class="center">10 minutes</td>
+      </tr>
+    </table>
+    <div class = "title2" id = "M4-resultat">Résultats de la mission</div>
+    <p>
+      Trois GPO sont appliquées : la Default Domain Policy pour la stratégie de mots de passe utilisateurs, VALORELEC-deploiement-AdobeAcrobatMSI pour le déploiement d'Adobe Acrobat, VALORELEC-restriction-panneau_de_configuration pour bloquer le panneau de configuration.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/GPO.png" alt="Capture d'écran des localisations des GPO" width=35%>
+      <p>Les GPO sont appliquées au niveau des utilisateurs de ValorElec, sauf pour le mot de passe, qui est modifié sur la racine</p>
+    </div>
+    <p>
+      En ce qui concerne la stratégie des mots de passe et de verrouillage des comptes des utilisateurs ne faisant pas partie du service de la direction, voici les paramètres entrés dans la GPO.
+    </p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/stratMDP.png" alt="Capture d'écran du résumé des paramètres que modifie la GPO pour la stratégie de mot de passe et de verrouillage de comptes" width=60%>
+      <div class = "caption">Paramètres appliqués sur l'ensemble des utilisateurs du domaine tierslieux86.fr</div>
+    </div>
+    <p>Pour la GPO d'Adobe Acrobat, nous remarquons qu'elle est effective.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/adobe.png" alt="Capture d'écran prouvant la réussite de la GPO Adobe Acrobat sur un poste utilisateur" width=60%>
+      <p>Dans le panneau de configuration, Adobe Acrobat figure dans les programmes installés</p>
+    </div>
+    <p>Voici la Password Settings Object (PSO), qui permet d'appliquer sur le service de la direction de ValorElec, une stratégie de mot de passe spécifique.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/PSO.png" alt="Capture d'écran de la PSO du service de direction de ValorElec" width=75%>
+      <p>Création d'une PSO pour GG-VALORELEC-Direction</p>
+    </div>
+    <p>Ici, nous avons testé l'accès au panneau de configuration depuis un compte utilisateur appartenant à un employé de ValorElec.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/panneauConfig.png" alt="Capture d'écran de la tentative d'accès au panneau de configuration depuis un poste utilisateur ValorElec" width=60%>
+      <p>L'accès au panneau de configuration est refusé</p>
+    </div>
+    <p>Si on essaie de changer le mot de passe pour une valeur plus faible (longueur trop petite, pas assez complexe), on tombe sur ce message :</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/stratVerr2.png" alt="Capture d'écran de tentative de changement de mot de passe pour une valeur invalide" width=60%>
+      <p>Il est demandé un meilleur mot de passe</p>
+    </div>
+    <p>Enfin, pour le test de verrouillage, nous sommes aussi freinés par la GPO.</p>
+    <div class = "picSet">
+      <img src="./styles/pictures/AP2/stratVerr1.png" alt="Capture d'écran du verrouillage du compte" width=60%>
+      <p>Le compte est verrouillé après deux tentatives ratées</p>
+    </div>
+  </section>
+  <section>
+    <div class = "title1" id = "bilan">Bilan</div>
+    <div class = "title2" id = "etatdeslieux">État des lieux</div>
+    <p>
+      L’objectif de la mission était d’intégrer le client ValorElec à l’espace de travail partagé de Chasseneuil. Cela consistait à représenter l’organisation dans l’Active Directory, la création de compte et le peuplement de groupes, mais aussi à la mise à disposition de certains services tels qu’un serveur de fichier. Ces missions ont pu aboutir : les scripts Powershell ont non seulement répondu aux besoins de ValorElec, mais permettent aussi de généraliser l’intégration d’une entreprise quelconque à l’ETP.
+    </p>
+    <div class = "title2" id = "problemes">Problèmes rencontrés</div>
+    <p>
+      La tâche 2 de la mission 3 a été un casse-tête. Au départ, les groupes domaine local étaient générés à partir des statuts et services de l’entreprise. On partageait ensuite le fichier voulu et on accordait les droits aux groupes domaine local correspondant. Étrangement, des utilisateurs avaient des droits plus élevés que ce qui leur était permis sur certains fichiers. Plusieurs hypothèses ont été émises : un conflit avec le contrôle total donné à Tout le monde ? Une mauvaise suppression de l’héritage des droits ? Des vérifications et paramétrages manuels à radicalité croissante ont essayé de vaincre ce problème : restriction des droits de partage directement aux groupes domaine local, vérification de l’accès effectif dans les droits NTFS, réactivation et désactivation de l’héritage, avec puis sans suppression des droits des sous-éléments (même si le dossier partagé était vide), suppression complète du dossier pour une nouvelle création du partage, restauration du snapshot, oubli du snapshot… Et à un moment, la machine a dû être réintégrée au domaine car un snapshot de trop avait été supprimé, ce qui a rompu les liens avec la version à jour de l’annuaire et a empêché de faire le lien avec les utilisateurs actuels. En parallèle, on cumulait les instantanés (environ 13) depuis le début de l’année 2026. Autant recommencer et recréer le domaine pour recommencer sur une base propre. L’attribution des droits a fonctionné à deux reprises comme souhaité, avant d’échouer à nouveau. Ce pourquoi il a été décidé de changer de plan, car du retard s'était accumulé.
+    </p>
+    <div class = "title2" id = "ameliorations">Suggestions d'amélioration</div>
+    <p>
+      On pourrait augmenter la sécurité des scripts Powershell et ajouter la gestion des erreurs. Pourquoi pas se renseigner sur ABE (Access-Based Enumeration) ? Il semblerait que, couplé à une racine DFS, cela permette une meilleure confidentialité. De cette manière, les personnes ne voient que les éléments sur lesquels ils ont des droits. En ce qui concerne le script d'octroi de droits sur les partages, étant donné que rentrer directement le chemin du fichier n'est pas sécurisé, il faudrait voir s'il est possible d'automatiser la création et la mise en ligne de disque virtuel avec iSCSI lors de l'intégration d'une entreprise, pour que la personne exécutant le script soit d'office placée dans ce répertoire. Par ailleurs, il faudrait également élaborer un script de retrait d'une entreprise cliente, car au vu du nombre de groupes domaine local créés, un ménage est nécessaire lors d'un départ. Par exemple, mettre tous les groupes désuets dans un groupe spécial avec aucun droit, pour les neutraliser. Enfin, c'est une redite, mais supprimer les groupes domaine local créés par défaut et ayant un contrôle total serait une bonne idée. Mieux encore : ne créer le groupe domaine local que s'il est non-vide.
+    </p>
+  </section>
+
+  <div class = "afterGlobal"></div>
+</body>
+<script>
+  function toggleMenu(){
+   const menu = document.querySelector(".fullScreenMenu");
+   const btn = document.querySelector(".toggle");
+
+   menu.classList.contains("active") ? menu.classList.remove("active") : menu.classList.add("active");
+ }
+</script>
+
+</html>

@@ -1,0 +1,1081 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8"/>
+    <title>Veille technologique</title>
+    <meta type="description" content="Contact et téléchargements">
+
+    <link rel="stylesheet" href="./styles/styleVeille.css" type="text/css">
+  </head>
+  <body>
+    <button class = "toggle" onclick="toggleMenu()">
+      <span class = "menuIcon">
+        <img src = "./styles/icons/menu.png">
+      </span>
+    </button>
+    <div class = "fullScreenMenu">
+      <ul>
+        <li class = "primary"><a href = "./index.html">Accueil</a></li>
+        <li class = "secondary"><a href = "./index.html#experience">Expérience</a></li>
+        <li class = "secondary"><a href = "./index.html#formation">Formations</a></li>
+        <li class = "primary"><a href = "./realisations.html">Réalisations</a></li>
+        <li class = "secondary"><a href = "./infrasite.html">InfraSite</a></li>
+        <li class = "secondary"><a href = "./evolsyswin.html">EvolSysWin</a></li>
+        <li class = "secondary"><a href = "./parcinfo.html">ParcInfo</a></li>
+        <li class = "primary"><a href = "./veille_technologique.html">Veille technologique</a></li>
+        <li class = "primary"><a href = "./contact.html">Contact</a></li>
+        <li class = "secondary"><a href = "./contact.html#telechargements">Téléchargements</a></li>
+        <li class = "secondary"><a href = "./contact.html#contact">Ecrivez-moi</a></li>
+      </ul>
+    </ul>
+  </div>
+</div>
+<div class = "hero">
+  <div class = "positionTitle title1"><h1>Veille technologique</h1>
+    <div class = "title2">L'impact de l'intelligence artificielle sur les techniques d'ingénierie sociale et les moyens de s'en prémunir</div>
+  </div>
+</div>
+  <section>
+    <div class = "title1">Mise en place</div>
+    <p class = "justifyText">
+      On nous dit souvent que la plus grande faille reste l'humain. Ayant à coeur de sensibiliser plus tard les personnes aux risques de sécurité informatique, le sujet ci-dessus fait donc sens pour moi, et par ailleurs, l'intelligence artificielle amène son lot d'enjeux dans cette question. Comme mentionné ci-dessus, j'ai mal interprété les consignes et pensais que la veille technologique était généraliste, et non axée sur une question, ce pourquoi cette partie n'est pas encore complétée. Mais il est tout à fait possible d'exposer la mise en place de cette veille.
+      <br><br>
+      Je souhaitais d'une part recueillir des articles sérieux pour comprendre les notions du sujet. Je me suis donc emparée de publications de recherches sur diverses bibliothèques (Google Scholar, CiteSeer^x, ArXiv, HAL, Cairn.info...). Puis, partie de ces publications, j'ai ensuite cherché dans les médias mainstream (forum, médias,...) afin de connaître l'opinion publique. Il s'agit donc d'une méthode pull, et j'ai utilisé l'intelligence artificielle pour m'aider à trouver des papiers de recherche. Le prompt en question ressemblait à quelque chose comme ceci : "Faites-moi une liste de cinq articles portant sur l'évolution du social engineering liée à l'intelligence artificielle, s'il vous plaît. Les ressources en question peuvent être en français ou en anglais, et doivent provenir de sources fiables telles que des publications de recherche."
+      <br><br>
+      Au départ, je souhaitais automatiser ma veille au maximum, en déployant un agent IA local via n8n, Ollama et Docker, mais mon ordinateur commençait à manquer de place et je ne voulais pas risquer de déplacer les machines virtuelles de mes ateliers professionnels.
+      <br><br>
+      J'ai aussi laissé l'information venir à moi (méthode push) en m'abonnant pour l'année 2024-2025 à la revue MISC, ainsi qu'à des flux RSS. Sur LinkedIn, je me suis abonnée au Clusif, qui publie des lettres de veille.
+      <br><br>
+      Le point de départ de cette veille technologique a été un article publié dans HAL (Florence Sèdes. Sécurité dans les SI & social engineering - un état des lieux. INFORSID 2024, May 2024, Nancy,France. ⟨hal-04613192⟩). Dans ce papier, l'auteur fait un tour d'horizon de ce qui se fait actuellement le plus en termes d'attaques. Elle dresse aussi les étapes d'une attaque (formulation de l'attaque, récolte des informations,...). Il y a aussi des sources parlant de moyens offensifs, tels que la notion de cybersécurité cognitive développée dans une autre publication (Lumbamba, C. (2026). Vers une Cybersécurité Cognitive : Intégration de l’Intelligence Artificielle dans la Protection des Systèmes d'Information. Revue-IRS, 4(2). https://doi.org/10.5281/zenodo.19150955).
+    </p>
+  </section>
+  <section>
+    <div class = "title1" id="partieCanaux"><h2>Canaux d'information</h2></div>
+    <div>
+      <div class = "title2">Chaînes YouTube</div>
+      <div class = "YouTube">
+        <div class = "channelGroup">
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/micode.jpg" alt = "Photo de Michaël de Marliave">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Micode
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Micode" rel="noopener" target="_blank">@Micode</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/v2f.jpg" alt = "Photo de Victor Ostertag">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                V2F
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@V2F" rel="noopener" target="_blank">@V2F</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/overflow.jpg" alt = "Logo de la chaîne Overflow">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Overfl0w
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@overfl-0-w" rel="noopener" target="_blank">@overfl-0-w</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/hafnium.jpg" alt="Logo du YouTubeur Hafnium">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Hafnium - Sécurité informatique
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@HafniumSecuriteInformatique" rel="noopener" target="_blank">@HafniumSecuriteInformatique</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/cookieConnecte.jpg" alt="Photo de Samson Son">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Cookie Connecté
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Cookieconnect%C3%A9" rel="noopener" target="_blank">@Cookieconnecté</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/itConnect.jpg" alt="Logo de la chaîne IT-Connect, de Florian Burnel">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                IT-Connect
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@IT-Connect" rel="noopener" target="_blank">@IT-Connect</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/parlonsCyber.jpg" alt="Photo de Parlons Cyber">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Parlons Cyber
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@ParlonsCyber" rel="noopener" target="_blank">@ParlonsCyber</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/underscore.jpg" alt="Logo de la chaîne Underscore, chaîne secondaire de Micode">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Underscore
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Underscore_" rel="noopener" target="_blank">@Underscore_</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div aria-hidden class = "channelGroup">
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/micode.jpg" alt = "Photo de Michaël de Marliave">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Micode
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Micode" rel="noopener" target="_blank">@Micode</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/v2f.jpg" alt = "Photo de Victor Ostertag">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                V2F
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@V2F" rel="noopener" target="_blank">@V2F</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src = "./styles/pictures/ytb/overflow.jpg" alt = "Logo de la chaîne Overflow">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Overfl0w
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@overfl-0-w" rel="noopener" target="_blank">@overfl-0-w</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/hafnium.jpg" alt="Logo du YouTubeur Hafnium">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Hafnium - Sécurité informatique
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@HafniumSecuriteInformatique" rel="noopener" target="_blank">@HafniumSecuriteInformatique</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/cookieConnecte.jpg" alt="Photo de Samson Son">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Cookie Connecté
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Cookieconnect%C3%A9" rel="noopener" target="_blank">@Cookieconnecté</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/itConnect.jpg" alt="Logo de la chaîne IT-Connect, de Florian Burnel">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                IT-Connect
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@IT-Connect" rel="noopener" target="_blank">@IT-Connect</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/parlonsCyber.jpg" alt="Photo de Parlons Cyber">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Parlons Cyber
+              </div>
+              <div class = "linkYouTuber">
+                <a href="www.youtube.com/@ParlonsCyber" rel="noopener" target="_blank">@ParlonsCyber</a>
+              </div>
+            </div>
+          </div>
+          <div class = "channel">
+            <div class = "pdpYouTuber">
+              <img src="./styles/pictures/ytb/underscore.jpg" alt="Logo de la chaîne Underscore, chaîne secondaire de Micode">
+            </div>
+            <div class = "textYouTube">
+              <div class = "youTuber">
+                Underscore
+              </div>
+              <div class = "linkYouTuber">
+                <a href="https://www.youtube.com/@Underscore_" rel="noopener" target="_blank">@Underscore_</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "title2">Articles enregistrés</div>
+    <div class ="container">
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Sécurité des SI & social engineering - un état des lieux
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Sécurité des SI & social engineering - un état des lieux
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://hal.science/hal-04613192v1">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Archives HAL</div>
+                <div class = "dateArticle">Mai 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            État des lieux des connaissances actuelles concernant le fonctionnement et la prévention du social engineering. Présentation des biais cognitifs utilisés lors des attaques, des étapes d'une attaque, contre-mesures actuelles.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            AI-Powered Social Engineering: Emerging Attack Vectors, Vulnerabilites, and Multi-Layered Defense Strategies
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              AI-Powered Social Engineering: Emerging Attack Vectors, Vulnerabilites, and Multi-Layered Defense Strategies
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.mdpi.com/2073-431X/15/2/128">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">MDPI</div>
+                <div class = "dateArticle">17 février 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Présentation du Unified Model of AI-mediated Social Engineering (UM AISE), qui démontre que l’IA industrialise le Social Engineering, bouleverse le modèle économique du cybercrime et propose des solutions pour protéger les systèmes d’information.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Vers une cybersécurité cognitive
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Vers une cybersécurité cognitive
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://zenodo.org/records/19150955">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Zenodo</div>
+                <div class = "dateArticle">Septembre 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Intégration des sciences comportementales, de l'apprentissage profond et de l'intelligence artificielle pour protéger le système d'information. Cherche en ce sens à simuler le raisonnement humain et protéger les utilisateurs de la manipulation psychologique.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Digital deception: generative artificial intelligence in social engineering and phishing
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Digital deception: generative artificial intelligence in social engineering and phishing
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://zenodo.org/records/19150955">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Springer Nature Links</div>
+                <div class = "dateArticle">12 octobre 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Passage en revue des capacités de l'IA en social engineering, leurs implications. L'amplification de la personnalisation, du réalisme et de l'automatisme rendent les attaques plus puissantes. Intégration de l'IA dans le modèle développé par Mouton (Social engineering attack framework - 2014).
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Deepfake-Driven Social Engineering:Threats, Detection Techniques and Defensive Strategies in Corporate Environments
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Deepfake-Driven Social Engineering:Threats, Detection Techniques and Defensive Strategies in Corporate Environments
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.mdpi.com/2624-800X/5/2/18">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">MDPI</div>
+                <div class = "dateArticle">27 avril 2025</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Entre autres, présentation du modèle PREDICT comme solution de préparation proactive des entreprises face au social engineering augmenté par IA.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Detecting Deepfake-Enabled Social Engineering Attacks Using Mutlimodal AI
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Detecting Deepfake-Enabled Social Engineering Attacks Using Mutlimodal AI
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.ijert.org/detecting-deepfake-enabled-social-engineering-attacks-using-multimodal-ai-techniques-ijertconv14is020069">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">IJERT</div>
+                <div class = "dateArticle">21 avril 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Étude de l'efficacité d'une détection de deepfake basée sur un cadre multimodal (audio, vidéo, image). L'article montre que le multimode permet de mettre en avant des incohérences et se montre donc plus efficaces que le monomode. Le papier s'avoue encore théorique.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            A comparative study of deepfake facial manipulation technique using generative adversarial networks
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              A comparative study of deepfake facial manipulation technique using generative adversarial networks
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://link.springer.com/article/10.1007/s44163-025-00337-2">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Springer Nature Links</div>
+                <div class = "dateArticle">17 juin 2025</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Présentation des GAN, leurs différentes architectures, les bases de données (fausses et réelles) les plus courantes pour générer des deep fake. Exposition des principales formes de manipulations faciales et de détection.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">The Hacker News</div>
+                <div class = "dateArticle">23 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Un exemple que l'intelligence artificielle ne sert pas seulement les Black Hats : l'entrée de Mythos fait du bruit en corrigeant de nombreuses vulnérabilités présentes dans le code source.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Des outils de spoofing vendus sur le dark web permettent d’usurper des numéros français
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Des outils de spoofing vendus sur le dark web permettent d’usurper des numéros français
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://frenchbreaches.com/blog/des-outils-de-spoofing-vendus-sur-le-dark-web-permettent-dusurper-des-numeros-francais">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">French Breaches</div>
+                <div class = "dateArticle">17 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Un véritable SaaS dédié à l'usurpation de numéros de téléphone s'est développé, avec son support inclus. Très réalistes, une génération de voix IA est proposée avec toute une communauté Télégram et son support derrière.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            A robust dual-pronged proactive defense framework against deepfakes via adversarial semi-fragile watermarking
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              A robust dual-pronged proactive defense framework against deepfakes via adversarial semi-fragile watermarking
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.sciencedirect.com/science/article/abs/pii/S0957417425043362">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">ScienceDirect</div>
+                <div class = "dateArticle">25 mars 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Article partiellement accessible. Présentation d'un nouveau modèle de détection : Adversarial Semi-Fragile Watermarking (ASFW). Des données passives sont cachées dans un fichier : une modification tierce malveillante peut être détectée lorsque leur intégrité est touchée. Forensique passive.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Exposing the Underground Mule-as-a-Service Economy: How AI and Telegram Are Reshaping Money Laundering
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Exposing the Underground Mule-as-a-Service Economy: How AI and Telegram Are Reshaping Money Laundering
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.kelacyber.com/blog/mule-as-a-service-money-laundering/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">KELA</div>
+                <div class = "dateArticle">22 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Des plateformes sont conçues pour proposer des mules, c'est-à-dire des entités qui facilitent le blanchiment en multipliant les intermédiaires des flux financiers. L'IA est utilisée pour automatiser l'usurpation d'identité, faisant de ce service une réelle industrie.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            A Review of Deep Learning-based Approaches for Deepfake Content Detection
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              A Review of Deep Learning-based Approaches for Deepfake Content Detection
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://arxiv.org/abs/2202.06095">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">ArXiv</div>
+                <div class = "dateArticle">15 février 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Synthèse de 101 articles de sources reconnues publiés entre 2018 - 2024. Parle des  principales méthodes de détection des deepfakes. 2 familles d'approches ressortent : spatiale, et temporelle. Évocation des bases de données usuelles et des GAN, générateurs et détecteurs de deepfake.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Deep Insights of Deepface Technology : A Review
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Deep Insights of Deepface Technology : A Review
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://arxiv.org/abs/2105.00192">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">ArXiv</div>
+                <div class = "dateArticle">8 janvier 2023</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Vulgarisation approfondie du fonctionnement des réseaux de neurones permettant de générer et détecter des deepfake.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Claude Mythos : voici pourquoi cette IA d’Anthropic fait peur à tout le monde
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Claude Mythos : voici pourquoi cette IA d’Anthropic fait peur à tout le monde
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.journaldugeek.com/2026/04/27/claude-mythos-voici-pourquoi-cette-ia-danthropic-fait-peur-a-tout-le-monde/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Journal du geek</div>
+                <div class = "dateArticle">27 avril 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Présentation de Claude Mythos, produit d'Anthropic. Mythos est doué dans la découverte massive de failles jusqu'ici inconnues. Il est aussi performant entre de bonnes que de mauvaises mains...
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Biais cognitif
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Biais cognitif
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://fr.wikipedia.org/wiki/Biais_cognitif">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Wikipédia</div>
+                <div class = "dateArticle">27 avril 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Comme l'ingénierie sociale repose sur des biais cognitifs, il est intéressant d'avoir un point d'entrée sur ce que c'est. Cet article Wikipédia est un point d'entrée vers les sciences cognitives.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Don't go to the police
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Don't go to the police
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.orangecyberdefense.com/dontgotothepolice/fr">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Orange Cyberdéfense</div>
+                <div class = "dateArticle">12 mars 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Réalisé par Ludoc, nous pouvons voir comment se déroule, se construit et se déclenche une cyberattaque qui a réellement eu lieu. Des employés de l'entreprise, Orange Cyberdéfense, reviennent sur cette évènement et leur ressenti.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Journée mondiale du mot de passe : repenser l'authentification à l'ère du deep learning
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Journée mondiale du mot de passe : repenser l'authentification à l'ère du deep learning
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.solutions-numeriques.com/journee-mondiale-du-mot-de-passe-repenser-lauthentification-a-lere-du-deep-learning/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Solutions numériques & cybersécurité</div>
+                <div class = "dateArticle">6 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            À l'occasion cette journée, l'article met à jour des recommandations plus adaptées face à l'émergence de l'IA. Il est question de clés physiques FIDO2 et d'applications d'authentification sécurisées. Le renouvellement tous les 90 jours n'est plus recommandé.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Les hackers MuddyWater utilisent le raçongiciel Chaos comme leurre dans leurs attaques
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Les hackers MuddyWater utilisent le raçongiciel Chaos comme leurre dans leurs attaques
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.netcost-security.fr/actualites/272874/les-hackers-muddywater-utilisent-le-rancongiciel-chaos-comme-leurre-dans-leurs-attaques/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Netcost</div>
+                <div class = "dateArticle">6 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            L'ingénierie sociale via Microsoft Teams a permis de récupérer des identifiants à partir de sessions de partage d'écran. S'en est suivi des oages de phishing imititant Microsoft et le déployement d'une backdoor.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Deepfakes: current and future trends
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Deepfakes: current and future trends
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://doi.org/10.1007/s10462-023-10679-x">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Springer Nature Links</div>
+                <div class = "dateArticle">19 février 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Passage sur l'IOT. Tendances futures de développement de l’IA : transfert de l’apprentissage, augmentation des données, outils de visualisation de l’apprentissage, détection d’anomalies, prise de décision, systèmes en temps réel.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Approche cognitive des cyberattaques par ingénierie sociale
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Approche cognitive des cyberattaques par ingénierie sociale
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.europeanscientist.com/fr/opinion/approche-cognitive-des-cyberattaques-par-ingenierie-sociale/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">European Scientist</div>
+                <div class = "dateArticle">Septembre 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Prépondérance de la cognition dans le social engineering. Présentation des facteurs facilitant l'attaque : personnalité, stress, fatigue, charge mentale, niveau d'expertise,... Requiert une sollicitation accrue des sciences cognitives et de la psychologie.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            France Titres (ANTS) piratée : noms, adresses, dates de naissance, jusqu'à 19 millions de comptes exposés
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              France Titres (ANTS) piratée : noms, adresses, dates de naissance, jusqu'à 19 millions de comptes exposés
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.lesnumeriques.com/societe-numerique/france-titres-ants-victime-d-une-cyberattaque-massive-cartes-d-identite-passeports-permis-19-millions-de-comptes-exposes-n254613.html">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Les Numériques</div>
+                <div class = "dateArticle">20 avril 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Retour sur la récente attaque de l'ANTS, dont une vulnérabilité de type IDOR serait à l'origine. Les données se sont retrouvées en vente. L'attaque ne nécessitait apparemment pas de niveau technique très élevé.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Shadow AI Is Making BYOD Security Even Harder
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Shadow AI Is Making BYOD Security Even Harder
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.rtinsights.com/shadow-ai-is-making-byod-security-even-harder/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">RTinsights</div>
+                <div class = "dateArticle">6 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            "Shadow AI" désigne l'utilisation de l'IA par les employés sans l'accord du service informatique de l'organisation. Le risque que des données appartenant à l'entreprise soient traitées et stockées par des IA externes est un risque, d'où l'importance de sensibiliser le personnel.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            J'ai infiltré le réseau d'escrocs qui vous harcèlent au téléphone
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              J'ai infiltré le réseau d'escrocs qui vous harcèlent au téléphone
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.youtube.com/watch?v=1HoU17dIEos">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Micode</div>
+                <div class = "dateArticle">19 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Présentation du mécanisme mis en place par des entreprises structurées afin de faire souscrire à des personnes des contrats faisant perdre de l'argent aux prospects. On retrouve des techniques de biais cognitifs.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Signal veut vous protéger du phishing en vous alertant
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Signal veut vous protéger du phishing en vous alertant
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.generation-nt.com/actualites/signal-messagerie-alerte-phishing-2075447">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">GNT</div>
+                <div class = "dateArticle">13 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Signal met en place des étapes supplémentaires de confirmation et d'authentification, suite à des attaques présupposées russes. Les attaquants se font passer pour le support technique et incitent à scanner un QR code afin de lier l'appareil ciblé au leur et accéder à toutes les informations.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Cyber Threat Intelligence (CTI)
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Cyber Threat Intelligence (CTI)
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://fr.wikipedia.org/wiki/Threat_Intelligence">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Wikipédia</div>
+                <div class = "dateArticle">29 novembre 2025</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            La Cyber Threat Intelligence (CTI) est elle-aussi augmentée par l'IA. Cet article Wikipédia permet de comprendre qu'il s'agit d'une recherche proactive des menaces pour rendre l'entreprise consciente de son environnement numérique, ce afin d'y faire face.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            L’IA et le phishing-as-a-service font grimper en flèche les attaques par e-mail en 2026
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              L’IA et le phishing-as-a-service font grimper en flèche les attaques par e-mail en 2026
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://itdaily.fr/nouvelles/securite/ia-phishing-as-a-service-attaques-par-email/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">ITDaily</div>
+                <div class = "dateArticle">15 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Prénsentation du Phishing-as-a-Service. Le phishing connaît une industrialisation, comme bon nombre de malware intégrant l'IA. Quelques chiffres sont donnés pour saisir la croissance constante de ce phénomène.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Faux profils, phishing et arnaques par IA ciblent de plus en plus les sportifs professionnels
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Faux profils, phishing et arnaques par IA ciblent de plus en plus les sportifs professionnels
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://karlobag.eu/fr/sport/faux-profils-phishing-et-arnaques-par-ia-ciblent-de-plus-en-plus-les-sportifs-pr-oqleb/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Karlobag</div>
+                <div class = "dateArticle">16 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Les sportifs sont davantage ciblés par des cyberattaques, en raison de la facilité d'accès des données personnelles et du manque de sécurité de leurs appareils, qui sont leurs appareils personnels.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            5 Benefits And Risks Of Using AI For Cybersecurity
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              5 Benefits And Risks Of Using AI For Cybersecurity
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.forbes.com/sites/chuckbrooks/2026/05/18/5-benefits-and-risks-of-using-ai-for-cybersecurity/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Forbes</div>
+                <div class = "dateArticle">18 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            Détection proactive, combler le manque de compétences, augmenter la productivité, la résilience, croiser les dernières technologies. Adversaires plus performants, ingénierie sociale  augmentée, boîte noire qu'est l'IA, échecs de conformité, exploitation des vulnérabilités de l'IoT
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Aller vite sans compromettre la confiance
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Aller vite sans compromettre la confiance
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.securities.io/fr/how-modern-fraud-teams-win-speed-safety/">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">Securities.io</div>
+                <div class = "dateArticle">22 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            La banque est sujette à l'impératif de rapidité de service. Cela accélère en même temps la réalisation d'attaque. L'IA permet de détecter les fraudes en s'imisçant dans l'analyse comportementale, grâce à sa capacité de traitement et son apprentissage continu.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+      <div class = "article">
+        <div class = "item">
+          <div class = "bubble">
+            Le phishing sur mobile représente désormais une menace plus importante que celui par e-mail : comment se protéger
+          </div>
+          <div class = "infoArticle">
+            <div class ="titleArticle">
+              Le phishing sur mobile représente désormais une menace plus importante que celui par e-mail : comment se protéger
+            </div>
+            <div class = "btnVeille">
+              <button type="button" onclick="copyLink(this)" data-link="https://www.zdnet.fr/actualites/le-phishing-sur-mobile-represente-desormais-une-menace-plus-importante-que-celui-par-e-mail-comment-se-proteger-495383.htm">
+                <img src="./styles/icons/copy.png" alt="Icône pour copier le lien" title="Copier le lien">
+                <div class = "copySuccess">Lien copié !</div>
+              </button>
+              <div class = "metaArticle">
+                <div class = "sourceArticle">ZDNet</div>
+                <div class = "dateArticle">21 mai 2026</div>
+              </div>
+            </div>
+          </div>
+          <div class = "recapArticle">
+            L'avènement de l'IA permet aux cyberattaquants de s'incruster sur des appareils encore plus personnels en améliorant la surface d'attaque qu'ils ont sur les téléphones : SMS et appels deviennent prépondérants face aux mails.
+          </div>
+        </div>
+      </div>
+      <!--********************************************************************************-->
+    </div>
+  </section>
+  <div class = "afterGlobal"></div>
+</body>
+<script>
+  function toggleMenu(){
+   const menu = document.querySelector(".fullScreenMenu");
+   const btn = document.querySelector(".toggle");
+
+   menu.classList.contains("active") ? menu.classList.remove("active") : menu.classList.add("active");
+ }
+</script>
+<script>
+  function copyLink(button) {
+    const url = button.getAttribute("data-link");
+    const msg = button.querySelector(".copySuccess");
+
+    navigator.clipboard.writeText(url).then(() => {
+      msg.classList.add("show");
+
+      setTimeout(() => {
+        msg.classList.remove("show");
+      }, 1500);
+    });
+  }
+</script>
+</html>

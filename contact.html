@@ -1,0 +1,95 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8"/>
+    <title>Contact</title>
+    <meta type="description" content="Contact et téléchargements">
+
+    <link rel="stylesheet" href="./styles/styleContact.css" type="text/css">
+  </head>
+  <body>
+    <button class = "toggle" onclick="toggleMenu()">
+      <span class = "menuIcon">
+        <img src = "./styles/icons/menu.png">
+      </span>
+    </button>
+    <div class = "fullScreenMenu">
+      <ul>
+        <li class = "primary"><a href = "./index.html">Accueil</a></li>
+        <li class = "secondary"><a href = "./index.html#experience">Expérience</a></li>
+        <li class = "secondary"><a href = "./index.html#formation">Formations</a></li>
+        <li class = "primary"><a href = "./realisations.html">Réalisations</a></li>
+        <li class = "secondary"><a href = "./infrasite.html">InfraSite</a></li>
+        <li class = "secondary"><a href = "./evolsyswin.html">EvolSysWin</a></li>
+        <li class = "secondary"><a href = "./parcinfo.html">ParcInfo</a></li>
+        <li class = "primary"><a href = "./veille_technologique.html">Veille technologique</a></li>
+        <li class = "primary"><a href = "./contact.html">Contact</a></li>
+        <li class = "secondary"><a href = "./contact.html#telechargements">Téléchargements</a></li>
+        <li class = "secondary"><a href = "./contact.html#contact">Ecrivez-moi</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class = "hero">
+    <div class = "positionTitle title1" id = "telechargements"><h1>Contact & téléchargements</h1></div>
+  </div>
+  <section>
+    <div class = "title1">Téléchargements</div>
+    <div class = "row">
+      <div class = "column1">
+        <div class = "title2">Ateliers professionnels</div>
+      </div>
+      <div class = "column2">
+        <div class = "download">
+          Contexte général des ETP de TiersLieux86
+          <a href = "./files/ETP-Poitiers.pdf" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement du contexte général" title="Cliquez pour télécharger le contexte général (Poitiers)"></a>
+        </div>
+        <div class = "download">
+          Contexte spécifique à Chasseneuil
+          <a href = "./files/ETP-Chasseneuil.pdf" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement du contexte de Chasseneuil" title="Cliquez pour télécharger le contexte spécifique à Chasseneuil (.pdf)"></a>
+        </div>
+        <div class = "download">
+          InfraSite : documentation technique (.zip)
+          <a href = "./files/InfraSite-DT.zip" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement de la documentation technique de l'atelier InfraSite" title="Cliquez pour télécharger le compte-rendu de l'atelier InfraSite (.zip)"></a>
+        </div>
+        <div class = "download">
+          InfraSite : maquette Packet Tracer (.zip)
+          <a href = "./files/InfraSite-maquette.pkt" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement de la maquette Packet Tracer" title="Cliquez pour télécharger la maquette Packet Tracer (.pkt)"></a>
+        </div>
+        <div class = "download">
+          EvolSysWin : compte-rendu
+          <a href = "./files/EvolSysWin-CR.pdf" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement du compte-rendu de l'atelier EvolSysWin" title="Cliquez pour télécharger le compte-rendu de l'atelier de l'atelier EvolSysWin"></a>
+        </div>
+        <div class = "download">
+          EvolSysWin : documentation technique (.zip)
+          <a href = "./files/EvolSysWin-DT.zip" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement de la documentation technique de l'atlier EvolSysWin" title="Cliquez pour télécharger la documentation technique de l'atelier EvolSysWin"></a>
+        </div>
+        <div class = "download">
+          ParcInfo : compte-rendu (= doc. technique) (.pdf)
+          <a href = "./files/ParcInfo-DT.pdf" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement de la documentation technique de l'atlier ParcInfo" title="Cliquez pour télécharger le compte-rendu de l'atelier ParcInfo"></a>
+        </div>
+        <div class = "download">
+          Scripts PowerShell (.zip)
+          <a href = "./files/PWSAD.zip" download><img src="./styles/icons/download.png" alt="Bouton de téléchargement des scripts PowerShell" title="Cliquez pour télécharger les scripts Powershell (.zip)"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>  
+  <div class = "title1" id = "contact">Contact</div>
+  <div class = "title3">sbrand.mailpro[at]gmail.com</div>
+</section>
+<div class = "afterGlobal"></div>
+</body>
+<script>
+  function toggleMenu(){
+   const menu = document.querySelector(".fullScreenMenu");
+   const btn = document.querySelector(".toggle");
+
+   menu.classList.contains("active") ? menu.classList.remove("active") : menu.classList.add("active");
+ }
+</script>
+
+</html>
+

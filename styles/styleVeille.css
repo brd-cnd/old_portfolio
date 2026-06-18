@@ -1,0 +1,491 @@
+/*
+Couleurs :
+Gris 1 : #2E2E2E
+Gris 2 : #4A4A4A
+Jaune : #D9CA3B
+
+
+*/
+
+@font-face{
+  font-family:"InterTTL";
+  src:url("./fonts/Inter_18pt-Bold.ttf");
+  font-weight:normal;
+  font-size:normal;
+}
+
+@font-face{
+  font-family:"InterTXT";
+  src:url("./fonts/Inter-VariableFont_opsz,wght.ttf");
+  font-weight:normal;
+  font-size:normal;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*___________________________________________________________________________ Généralités*/
+body{
+	box-sizing:border-box;
+	font-size:1.2rem;
+	font-weight:350;
+	font-family:"InterTXT";
+	color:black;
+}
+
+button{
+	background-color:transparent;
+	border:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+  display:inline;
+}
+
+section {
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	padding-bottom:20vh;
+}
+
+.title1{
+	position:relative;
+	font-family:"InterTTL";
+	font-size:clamp(5rem,6vw,6.5rem);
+	padding:2rem 0 2rem 0;
+	line-height:130%;
+}
+
+.alignRight{
+	text-align:right;
+}
+
+.title2{
+	position:relative;
+	font-family:"InterTTL";
+	font-size:clamp(2rem,2.5vw,3rem);
+	line-height:130%;
+}
+
+.title3{
+	font-family:"InterTXT";
+	font-size:clamp(2rem,2.5vw,3rem);
+}
+
+.title4{
+	font-family:"InterTXT";
+	font-size:clamp(1.5rem,1.8vw,2.2rem);
+}
+
+/*___________________________________________________________________________ Menu*/
+.fullScreenMenu{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background:rgba(255,255,255,0.5);
+	backdrop-filter:blur(10px);
+	display:none;
+	align-items:center;
+	justify-content:center;
+	font-size:2rem;
+	line-height:150%;
+	z-index:1;
+	font-family:"InterTTL";
+	color:black;
+}
+
+.fullScreenMenu a{
+	color:black;
+}
+
+.fullScreenMenu ul{
+	list-style:none;
+}
+
+.fullScreenMenu ul li a{
+	text-decoration:none;
+}
+
+.fullScreenMenu ul li a:hover{
+	color:#D9CA3B;
+}
+
+.primary{
+	font-size: clamp(1.5rem, 5vw, 3rem);
+	padding-top:1rem;
+}
+
+.secondary{
+	font-size: clamp(1.2rem, 4vw, 2rem);
+	line-height:120%;
+	padding-left:2rem;
+}
+
+.active{
+	display:flex !important;
+}
+
+.toggle{
+	position:fixed; 
+	top:1rem;
+	left:1rem;
+	padding:0.5rem;
+	background:rgba(255,255,255,0.7);
+	border-radius:8px;
+	backdrop-filter:blur(5px);
+	z-index:10;
+}
+
+.backUp a img{
+	position:fixed; 
+	z-index:98;
+	bottom:2rem;
+	right:2vw; 
+}
+
+.menuIcon img {
+  width: clamp(20px, 6vw, 55px);
+  height: auto;
+}
+
+.backUp img {
+  width: clamp(20px, 6vw, 60px);
+  height: auto;
+}
+
+/*___________________________________________________________________________ Hero*/
+.hero{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.positionTitle{
+	width:50%;
+}
+
+/*___________________________________________________________________________ Page*/
+.tab{
+	width:100%;
+}
+
+.row{
+	display:flex;
+	padding-bottom:2rem;
+}
+
+.column1{
+	width:40%;
+}
+
+.column2{
+	width:60%;
+}
+
+.download{
+	display:flex;
+	justify-content:space-between;
+	font-family:"InterTXT";
+	font-size:clamp(1.7rem,1.9vw,2.2rem);	
+	line-height:150%;
+}
+
+.centerText{
+	text-align:center;
+}
+
+.justifyText{
+	text-align:justify;
+}
+
+/*___________________________________________________________________________ YouTube*/
+/*......................................... Animation*/
+@keyframes roll{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translate(-200rem);
+	}
+}
+
+/*......................................... */
+.YouTube{
+	position:sticky;
+	margin-bottom:15vh;
+	top:0;
+	display:flex;
+	width:100%;
+	overflow-x:auto;
+}
+
+.YouTube::-webkit-scrollbar{
+	display:none;
+}
+
+.channelGroup{
+	display:flex;
+	width:200rem;
+	animation: roll 60s infinite linear;
+}
+
+.channel{
+	width:25rem;
+	display:flex;
+	flex-shrink:0;
+	align-items:center;
+	padding:1rem;
+	height:9rem;
+}
+
+.pdpYouTuber{
+	width:20%;
+}
+
+.pdpYouTuber img{
+	width:100%;
+	border-radius:50%;
+}
+
+.textYouTube{
+	width:65%;
+	padding:0 0.5rem;
+}
+
+.youTuber{
+	font-size:1.3rem;
+	font-family:"InterTTL";
+}
+
+.linkYouTuber{
+	word-break:break-all;
+}
+
+.linkYouTuber a{
+	font-family:"InterTTL";
+	text-decoration:none;
+	color:#4A4A4A;
+	font-size:0.9rem;
+}
+
+.linkYouTuber a:hover{
+	color:#D9CA3B;
+}
+
+/*___________________________________________________________________________ Veilles*/
+.container{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding:5rem 0;
+}
+
+.infoArticle{
+	position:relative;
+}
+
+.item{
+	position:relative;
+	display:flex;
+	width:20rem;
+	height:18rem;
+	transform-box:border-box;
+	padding:1rem;
+	margin-bottom:3rem;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	border-radius:20px;
+	border:3.5px solid black;
+}
+
+.infoArticle{
+	display:flex;
+	flex-direction:column;
+	width:95%;
+	height:95%;
+}
+
+.btnVeille{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	display:flex;
+	justify-content:space-between;
+}
+
+.btnVeille button{
+	border:none;
+}
+
+.btnVeille:active{
+	color:#D9CA3B;
+}
+
+.metaArticle{
+	text-align:right;
+	font-size:1rem;
+}
+
+.titleArticle{
+	position:relative;
+	padding-top:1rem;
+	padding-bottom:0.6rem;
+	font-family:"InterTTL";
+	font-size:2rem;
+	padding:1rem 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+.bubble{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+	font-family:"InterTTL";
+	width:max-content;
+	width:18rem;
+	font-size:1.4rem;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.item .bubble {
+  position: absolute;
+  bottom: 105%; /* au-dessus de la carte */
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.item:hover .bubble {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item .bubble::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.dateArticle{
+	color:#4A4A4A;
+	font-family:"InterTTL";
+}
+
+.sourceArticle{
+	color:#2E2E2E;
+	font-family:"InterTTL";
+}
+
+.recapArticle{
+	position:absolute;
+	text-align:justify;
+	font-size:clamp(1vw,1em,1rem);
+	top:10%;
+	width:85%;
+	height:auto;
+	opacity:0;
+}
+
+.item:hover .recapArticle{
+	transition: all .6s;
+	opacity:1;
+}
+
+.item:hover .titleArticle{
+	transition: all .4s;
+	opacity:0;
+}
+
+.toComplete{
+	color:red;
+}
+
+.linkArticle{
+	width:3rem;
+	height:3rem;
+	padding:0.5rem;
+	background-color:none;
+	border-radius:50%;
+}
+
+.copySuccess{
+	position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.copySuccess.show {
+  opacity: 1;
+}
+
+.goToPage{
+	width:3rem;
+	height:3rem;
+	padding:0.5rem;
+	border-radius:50%;
+}
+
+/*___________________________________________________________________________ Fin*/
+.afterGlobal{
+	height:20vh;
+}
+
+@media screen and (max-width: 768px){
+
+	.presentation{
+		flex-direction:column;
+	}
+
+	.textPresentation,
+	.downloadPresentation{
+		width:100%;
+		padding-left:0;
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+	section{
+		width:75%;
+	}
+}

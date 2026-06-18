@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8"/>
+    <title>Réalisations</title>
+    <meta type="description" content="Réalisations professionnelles">
+
+    <link rel="stylesheet" href="./styles/styleRealisations.css" type="text/css">
+  </head>
+  <body>
+    <button class = "toggle" onclick="toggleMenu()">
+      <span class = "menuIcon">
+        <img src = "./styles/icons/menu.png">
+      </span>
+    </button>
+    <div class = "fullScreenMenu">
+      <ul>
+        <li class = "primary"><a href = "./index.html">Accueil</a></li>
+        <li class = "secondary"><a href = "./index.html#experience">Expérience</a></li>
+        <li class = "secondary"><a href = "./index.html#formation">Formations</a></li>
+        <li class = "primary"><a href = "./realisations.html">Réalisations</a></li>
+        <li class = "secondary"><a href = "./infrasite.html">InfraSite</a></li>
+        <li class = "secondary"><a href = "./evolsyswin.html">EvolSysWin</a></li>
+        <li class = "secondary"><a href = "./parcinfo.html">ParcInfo</a></li>
+        <li class = "primary"><a href = "./veille_technologique.html">Veille technologique</a></li>
+        <li class = "primary"><a href = "./contact.html">Contact</a></li>
+        <li class = "secondary"><a href = "./contact.html#telechargements">Téléchargements</a></li>
+        <li class = "secondary"><a href = "./contact.html#contact">Ecrivez-moi</a></li>
+      </ul>
+    </div>
+</div>
+<div class = "hero">
+  <div class = "positionTitle title1">
+    Réalisations professionnelles
+  </div>
+</div>
+<section>
+  <div class = "title1"><h2>InfraSite</h2></div>
+  <div>
+    Mise en place de l'infrastructure système et réseau de l'ETP de Tierslieux86 sur le site de Chasseneuil.Maquettage du site via Packet Tracer, élaboration d'un prototype connectant un routeur VyOS à un serveur Windows 2022 et un poste Windows 11, mise en place d'un dossier partagé sur le serveur, autorisations au dossier partagé selon le statut de l'utilisateur.
+  </div>
+  <div class = "icon"><a href = "./infrasite.html"><img src = "./styles/icons/next.png" alt = "Lien vers la page de l'atelier InfraSite" title = "Page vers l'atelier InfraSite"></a></div>
+</section>
+<section>
+  <div class = "title1"><h2>EvolSysWin</h2></div>
+  <div>
+      Proposition d'organisation de l'Active Directory, automatisation de la création des OU via Powershell, création des utilisateurs à partir de fichiers CSV ainsi que des informations de connexion dans un fichier Word propre à chacun, mise en place d'un serveur de fichiers iSCSI, création et application de GPO, automatisation de l'imbrication des groupes globaux dans les groupes domaine local, test d'accès aux fichiers.
+  </div>
+  <div class = "icon"><a href = "./evolsyswin.html"><img src = "./styles/icons/next.png" alt = "Lien vers la page de l'atelier EvolSysWin" title = "Page vers l'atelier EvolSysWin"></a></div>
+</section>
+<section>
+  <div class = "title1"><h2>ParcInfo</h2></div>
+  <div>
+    Mise en place de deux serveurs GLPI en redondance grâce à HAProxy, basés sur une architecture ¨LAMP (Debian Trixie - non graphique). Externalisation de la base de données de GLPI sur un quatrième serveur. Mise en place d'une connexion chiffrée (HTTPS) grâce à des certificats SSL auto-signés. Réflexion et implémentation de l'organiation de GLPI (entités, groupes, etc.)
+  </div>
+  <div class = "icon"><a href = "./parcinfo.html"><img src = "./styles/icons/next.png" alt = "Lien vers la page de l'atelier ParcInfo" title = "Page vers l'atelier ParcInfo"></a></div>
+</section>
+<div class = "afterGlobal"></div>
+</body>
+<script>
+  function toggleMenu(){
+   const menu = document.querySelector(".fullScreenMenu");
+   const btn = document.querySelector(".toggle");
+
+   menu.classList.contains("active") ? menu.classList.remove("active") : menu.classList.add("active");
+ }
+</script>
+
+</html>
