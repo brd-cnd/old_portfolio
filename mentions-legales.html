@@ -1,0 +1,222 @@
+<!--
+=============================================================================
+  MENTIONS-LEGALES.HTML
+  =============================================================================
+  Page autonome (style en <style> intégré, aucune dépendance CSS externe),
+  reprenant les mêmes conditions que les mentions légales du site greenbeans
+  (même éditeur sous pseudonyme "greenbeans", même hébergeur GitHub Pages,
+  même politique d'absence de collecte de données).
+
+  À adapter manuellement avant mise en ligne :
+    - le lien "Accueil" en haut de page (actuellement href="index.html")
+    - éventuellement le <title> / la meta description si le site a un nom
+=============================================================================
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Mentions légales du site : éditeur, hébergement, données personnelles." />
+<meta name="author" content="greenbeans" />
+<meta name="theme-color" content="#ffffff" />
+<title>Mentions légales</title>
+<style>
+  :root {
+    --ink: #111111;
+    --paper: #ffffff;
+    --line: #dddddd;
+    --muted: #555555;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 2px;
+    margin-bottom: 48px;
+  }
+  .back svg { width: 16px; height: 16px; }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 12px;
+  }
+  .lead {
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-size: 19px;
+    margin: 48px 0 4px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+  h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 28px 0 8px;
+    color: var(--muted);
+  }
+  p { margin: 0 0 14px; font-size: 15px; }
+  a { color: var(--ink); }
+  .address-block {
+    font-style: normal;
+    font-size: 15px;
+    margin: 0 0 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <!-- TODO : remplacer href="index.html" par le vrai lien vers l'accueil -->
+  <a class="back" href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M15 18 9 12l6-6" />
+    </svg>
+    Accueil
+  </a>
+
+  <h1>Mentions légales</h1>
+  <p class="lead">
+    Conformément aux dispositions des Articles 6-III et 19 de la Loi
+    n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique,
+    dite L.C.E.N., il est porté à la connaissance des utilisateurs et
+    visiteurs de ce site (ci-après « le site ») les présentes mentions
+    légales.
+  </p>
+
+  <h2>Éditeur du site</h2>
+
+  <h3>Édition à titre personnel</h3>
+  <p>
+    Le site est édité à titre strictement personnel et non professionnel,
+    sans aucune activité commerciale ni vente en ligne, à des fins de
+    présentation de projets et de démonstration.
+  </p>
+  <p>
+    Il est édité sous le pseudonyme <strong>greenbeans</strong>, qui en
+    assure également la direction de la publication.
+  </p>
+
+  <h3>Anonymat de l'éditeur</h3>
+  <p>
+    Conformément à l'article 6-III-2 de la loi n°2004-575 du 21 juin 2004
+    pour la confiance dans l'économie numérique, les personnes éditant un
+    service de communication en ligne à titre non professionnel peuvent
+    préserver leur anonymat à l'égard du public, à condition d'avoir
+    communiqué leur identité réelle à leur hébergeur. C'est le choix fait
+    ici : l'identité civile de l'éditeur n'est pas publiée sur cette page,
+    mais a été transmise à l'hébergeur du site (voir section suivante), et
+    ne peut être communiquée que sur réquisition d'une autorité judiciaire.
+  </p>
+
+  <h3>Contact</h3>
+  <p>
+    Pour toute question relative au site ou pour signaler un contenu ou
+    une activité illicite, l'éditeur peut être contacté à l'adresse
+    suivante : <a href="mailto:sbrand.mailpro@gmail.com">sbrand.mailpro@gmail.com</a>.
+  </p>
+
+  <h2>Hébergement</h2>
+
+  <h3>Hébergeur</h3>
+  <p>
+    Le site est hébergé sur <strong>GitHub Pages</strong>, un service
+    d'hébergement de sites statiques fourni par :
+  </p>
+  <p class="address-block">
+    GitHub, Inc.<br />
+    88 Colin P. Kelly Jr. Street<br />
+    San Francisco, CA 94107<br />
+    États-Unis<br />
+    Téléphone : +1 (877) 448-4820<br />
+    <a href="https://pages.github.com/">pages.github.com</a>
+  </p>
+
+  <h3>Données techniques liées à l'hébergement</h3>
+  <p>
+    Comme pour tout site web, la simple consultation du site amène le
+    navigateur de l'internaute à se connecter à l'infrastructure technique
+    de l'hébergeur (et du réseau de diffusion de contenu qu'il utilise), ce
+    qui implique nécessairement le traitement de données de connexion
+    (adresse IP notamment) par cette infrastructure. Ce traitement,
+    strictement technique et nécessaire au fonctionnement de tout site
+    Internet, est assuré par l'hébergeur sous sa propre responsabilité ; il
+    n'est ni déclenché, ni consulté, ni exploité par l'éditeur du site.
+  </p>
+
+  <h2>Données personnelles</h2>
+
+  <h3>Aucune collecte de données personnelles</h3>
+  <p>
+    Ce site est un site de présentation, sans formulaire de contact, sans
+    création de compte, sans newsletter, sans espace de commentaires et
+    sans aucune fonctionnalité de mesure d'audience (pas de Google
+    Analytics ni d'outil équivalent). Aucune donnée à caractère personnel
+    n'est donc collectée ni traitée par l'éditeur du site à l'occasion de
+    votre navigation.
+  </p>
+  <p>
+    Le site n'effectue par ailleurs aucune vente ni transaction en ligne,
+    et ne nécessite donc aucune collecte d'informations de paiement, de
+    facturation ou de livraison.
+  </p>
+
+  <h3>Aucun cookie</h3>
+  <p>
+    Le site n'utilise aucun cookie : ni cookie de mesure d'audience, ni
+    cookie publicitaire, ni cookie de personnalisation. Il n'importe pas
+    non plus de polices ou de ressources externes (telles que Google
+    Fonts) susceptibles d'en déposer.
+  </p>
+  <p>
+    Comme indiqué précédemment, l'infrastructure technique de l'hébergeur
+    traite nécessairement des données de connexion (adresse IP) pour
+    transmettre les pages à votre navigateur ; ce traitement, purement
+    technique, relève de la responsabilité de l'hébergeur et de sa propre
+    politique de confidentialité, non de celle de l'éditeur du site.
+  </p>
+
+  <h3>Délégué à la protection des données</h3>
+  <p>
+    Le site ne traitant aucune donnée à caractère personnel, la
+    désignation d'un délégué à la protection des données n'est pas
+    applicable ici.
+  </p>
+
+  <h3>Vos droits</h3>
+  <p>
+    Si, malgré ce qui précède, vous pensez que des données vous concernant
+    auraient été collectées, vous disposez des droits prévus par le
+    Règlement général sur la protection des données (accès, rectification,
+    effacement, limitation, opposition, portabilité), que vous pouvez
+    exercer en écrivant à
+    <a href="mailto:sbrand.mailpro@gmail.com">sbrand.mailpro@gmail.com</a>.
+    Vous disposez également du droit d'introduire une réclamation auprès
+    de la <a href="https://www.cnil.fr">CNIL</a>.
+  </p>
+
+</main>
+</body>
+</html>
