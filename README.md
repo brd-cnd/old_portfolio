@@ -1,9 +1,12 @@
 # Ancien portfolio
 ## Bonjour, vous êtes sur une ancienne version
 Le présent dépôt contient une ancienne version de mon portfolio. Dans ses conditions d'utilisation, Github n'autorise, pour chaque utilisateur, la publication que d'un seul site via Github pages. Vous vous en doutez, j'ai donc utilisé cet outil pour mettre en ligne mon nouvea portfolio.
-Si vous souhaitez visualiser ce portfolio, téléchargez-le et ouvrez-le en local sur un navigateur. Une barre devrait de plus s'afficher pour vous rappeler qu'il s'agit d'un ancien portfolio.
 
-## Où trouver mon nouveau portfolio ?
+### Comment consulter cet ancien portfolio ?
+Si vous souhaitez visualiser ce portfolio, téléchargez-le et ouvrez-le en local sur un navigateur. Une barre devrait de plus s'afficher pour vous rappeler qu'il s'agit d'un ancien portfolio.
+Il se peut que les liens vers les documents soient morts : quand j'avais essayé d'imbriquer ce site dans le nouveau, Github n'appréciait pas le poids des fichiers. Un lien vous sera présenté dans quelques lignes pour que vous accédiez à la documentation technique, sur un autre dépôt.
+
+### Où trouver mon nouveau portfolio ?
 Il est disponible à l'adresse suivante : [https://brd-cnd.github.io/greenbeans/home.html](https://brd-cnd.github.io/greenbeans/home.html).
 À l'heure où je rédige ce README (23.06.2026), il n'est pas encore prêt, mais les documents tels que le calendrier de formation ou des CV sont à votre disposition. Et les mentions légales, juste pour être un peu en règle dès le début.
 
@@ -12,6 +15,7 @@ Il est disponible à l'adresse suivante : [https://brd-cnd.github.io/greenbeans/
 Je n'ai pas fini de transférer tous les travaux que j'ai faits, et ce portfolio contient des captures d'écran de réalisation qui font office de preuve de réalisation. De plus, cela permet aussi de montrer que j'ai touché au HTML et au CSS, en tant qu'étudiante en réseaux.
 
 ### Quels sont alors les travaux notoires ? Où se rendre, si on veut accéder rapidement aux projets essentiels ?
+_Comme mentionné précédemment, pour visualiser le portfolio, il faudra le télécharger en local_
 Il y a deux travaux essentiels, qui sont les ateliers professionnels réalisés au sein du CNED : ParcInfo et EvolSysWin. Dans mon ancien portfolio, il suffit de cliquer sur l'icône du menu et de cliquer sur l'un des deux projets.
 ParcInfo se concentre sur la solution GLPI, la mise en place d'un répartiteur de charge, l'installation de certificats SSL auto-signés, l'externalisation de la base de données de GLPI, et bien sûr, l'installation de GLPI lui-même sur deux serveurs. Pour ce qui est de la partie système, l'atelier est axé sur la liaison entre Active Directory et GLPI, et la création de règles qui régit l'affectation d'un utilisateur à un groupe ou une entité.
 
