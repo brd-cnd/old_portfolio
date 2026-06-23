@@ -4,7 +4,7 @@ Le présent dépôt contient une ancienne version de mon portfolio. Dans ses con
 
 ### Comment consulter cet ancien portfolio ?
 Si vous souhaitez visualiser ce portfolio, téléchargez-le et ouvrez-le en local sur un navigateur. Une barre devrait de plus s'afficher pour vous rappeler qu'il s'agit d'un ancien portfolio.
-Il se peut que les liens vers les documents soient morts : quand j'avais essayé d'imbriquer ce site dans le nouveau, Github n'appréciait pas le poids des fichiers. Un lien vous sera présenté dans quelques lignes pour que vous accédiez à la documentation technique, sur un autre dépôt.
+Il se peut que les liens vers les documents soient morts : quand j'avais essayé d'imbriquer ce site dans le nouveau, Github n'appréciait pas le poids des fichiers, et j'avais enlevé les liens pour voir si Github accepterait tout de même une telle arborescence (spoiler : non). Un lien vous sera présenté dans quelques lignes pour que vous accédiez à la documentation technique, sur un autre dépôt.
 
 ### Où trouver mon nouveau portfolio ?
 Il est disponible à l'adresse suivante : [https://brd-cnd.github.io/greenbeans/home.html](https://brd-cnd.github.io/greenbeans/home.html).
