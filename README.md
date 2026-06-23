@@ -1,6 +1,6 @@
 # Ancien portfolio
 ## Bonjour, vous êtes sur une ancienne version
-Le présent dépôt contient une ancienne version de mon portfolio. Dans ses conditions d'utilisation, Github n'autorise, pour chaque utilisateur, la publication que d'un seul site via Github pages. Vous vous en doutez, j'ai donc utilisé cet outil pour mettre en ligne mon nouveau portfolio. J'ai essayé d'imbriquer l'ancien site dans le nouveau, mais à chaque fois, Github plantait.
+Le présent dépôt contient une ancienne version de mon portfolio. Dans ses conditions d'utilisation, Github n'autorise, pour chaque utilisateur, la publication que d'un seul site via Github pages. Vous vous en doutez, j'ai donc utilisé cet outil pour mettre en ligne mon nouveau portfolio. J'ai essayé d'imbriquer l'ancien site dans le nouveau, mais à chaque fois, Github plantait (page qui tourne indéfiniment).
 
 ### Comment consulter cet ancien portfolio ?
 Si vous souhaitez visualiser ce portfolio, téléchargez-le et ouvrez-le en local sur un navigateur. Une barre devrait de plus s'afficher pour vous rappeler qu'il s'agit d'un ancien portfolio.
