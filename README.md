@@ -16,6 +16,8 @@ Pour mon nouveau site, je veux refaire la charte graphique de ma documentation t
 
 ### Quels sont alors les travaux notoires ? Où se rendre, si on veut accéder rapidement aux projets essentiels ?
 _Comme mentionné précédemment, pour visualiser le portfolio, il faudra le télécharger en local_
+
+
 Il y a deux travaux essentiels, qui sont les ateliers professionnels réalisés au sein du CNED : ParcInfo et EvolSysWin. Dans mon ancien portfolio, il suffit de cliquer sur l'icône du menu et de cliquer sur l'un des deux projets.
 ParcInfo se concentre sur la solution GLPI, la mise en place d'un répartiteur de charge, l'installation de certificats SSL auto-signés, l'externalisation de la base de données de GLPI, et bien sûr, l'installation de GLPI lui-même sur deux serveurs. Pour ce qui est de la partie système, l'atelier est axé sur la liaison entre Active Directory et GLPI, et la création de règles qui régit l'affectation d'un utilisateur à un groupe ou une entité.
 
